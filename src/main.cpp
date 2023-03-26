@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Zoologico.h"
 
 int main() {
-    std::cout<<"Hello world!!"<<std::endl;
+    Zoologico zoo = Zoologico(1);
+    zoo.menu();
     return 0;
 }

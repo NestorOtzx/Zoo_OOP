@@ -6,8 +6,14 @@
 #define PROJECT_OOP_ZOOLOGICO_H
 #include <list>
 #include <iostream>
-#include "Animales/Animal.h"
-#include "Habitat.h"
+
+//Todos los habitats
+#include "Habitats/Habitat.h"
+#include "Habitats/Bosque.h"
+#include "Habitats/Acuatico.h"
+#include "Habitats/SelvaTropical.h"
+#include "Habitats/Sabana.h"
+
 
 class Zoologico {
 private:
@@ -16,10 +22,14 @@ private:
 
 public:
     Zoologico() = default;
+    Zoologico(int id);
+
+
     void menu();
     void agregarAnimal();
     void agregarHabitat();
     void mostrarAnimales();
+    void mostrarHabitats();
     void interactuarAnimal();
     void editarAlimento();
 };
