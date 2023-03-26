@@ -1,4 +1,8 @@
 # ninja log v5
-4	199	7014858346186794	build.ninja	4584adc24e05c09a
+4	199	7015593585415220	build.ninja	4584adc24e05c09a
 0	390	7014858350903535	CMakeFiles/Project_OOP.dir/main.cpp.obj	4e712fa4151c905c
 392	510	7014858352083256	Project_OOP.exe	4dc3a74e01ac33e3
+339	438	7015581323696753	src/Project_OOP_exe.exe	c8fab3b630862882
+1	166	7015579195982180	src/CMakeFiles/Project_OOP_exe.dir/Alimentos/Alimento.cpp.obj	9f559788f6fac340
+3	51	7015581245384455	src/CMakeFiles/Project_OOP_exe.dir/Animal.cpp.obj	e4f01e6c3aee10c5
+3	338	7015581322720112	src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj	9ff59be8f1750b08

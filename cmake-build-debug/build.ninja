@@ -40,39 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target Project_OOP
-
-
-#############################################
-# Order-only phony target for Project_OOP
-
-build cmake_object_order_depends_target_Project_OOP: phony || CMakeFiles/Project_OOP.dir
-
-build CMakeFiles/Project_OOP.dir/main.cpp.obj: CXX_COMPILER__Project_OOP_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/main.cpp || cmake_object_order_depends_target_Project_OOP
-  DEP_FILE = CMakeFiles\Project_OOP.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Project_OOP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Project_OOP.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Project_OOP
-
-
-#############################################
-# Link the executable Project_OOP.exe
-
-build Project_OOP.exe: CXX_EXECUTABLE_LINKER__Project_OOP_Debug CMakeFiles/Project_OOP.dir/main.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Project_OOP.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Project_OOP.exe
-  TARGET_IMPLIB = libProject_OOP.dll.a
-  TARGET_PDB = Project_OOP.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -97,9 +64,165 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target Project_OOP_lib
+
+
+#############################################
+# Order-only phony target for Project_OOP_lib
+
+build cmake_object_order_depends_target_Project_OOP_lib: phony || src/CMakeFiles/Project_OOP_lib.dir
+
+build src/CMakeFiles/Project_OOP_lib.dir/Alimento.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Alimento.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Alimento.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Animal.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Animal.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Animal.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Habitat.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Habitat.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Habitat.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir
+
+build src/CMakeFiles/Project_OOP_lib.dir/Zoologico.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Zoologico.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Zoologico.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir
+
+build src/CMakeFiles/Project_OOP_lib.dir/main.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/main.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target Project_OOP_lib
+
+
+#############################################
+# Link the static library src\libProject_OOP_lib.a
+
+build src/libProject_OOP_lib.a: CXX_STATIC_LIBRARY_LINKER__Project_OOP_lib_Debug src/CMakeFiles/Project_OOP_lib.dir/Alimento.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Animal.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitat.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Zoologico.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/main.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = src\libProject_OOP_lib.a
+  TARGET_PDB = Project_OOP_lib.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Project_OOP_exe
+
+
+#############################################
+# Order-only phony target for Project_OOP_exe
+
+build cmake_object_order_depends_target_Project_OOP_exe: phony || src/CMakeFiles/Project_OOP_exe.dir
+
+build src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Alimento.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Animal.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Habitat.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Habitat.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Habitat.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir
+
+build src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Zoologico.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir
+
+build src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/main.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Project_OOP_exe
+
+
+#############################################
+# Link the executable src\Project_OOP_exe.exe
+
+build src/Project_OOP_exe.exe: CXX_EXECUTABLE_LINKER__Project_OOP_exe_Debug src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitat.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = src\Project_OOP_exe.exe
+  TARGET_IMPLIB = src\libProject_OOP_exe.dll.a
+  TARGET_PDB = Project_OOP_exe.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\src" && "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\src" && "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\itsre\Desktop\Tareas CPP\Project_OOP" -B"C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build Project_OOP: phony Project_OOP.exe
+build Project_OOP_exe: phony src/Project_OOP_exe.exe
+
+build Project_OOP_exe.exe: phony src/Project_OOP_exe.exe
+
+build Project_OOP_lib: phony src/libProject_OOP_lib.a
+
+build libProject_OOP_lib.a: phony src/libProject_OOP_lib.a
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +232,14 @@ build Project_OOP: phony Project_OOP.exe
 #############################################
 # Folder: C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug
 
-build all: phony Project_OOP.exe
+build all: phony src/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src
+
+build src/all: phony src/libProject_OOP_lib.a src/Project_OOP_exe.exe
 
 # =============================================================================
 # Built-in targets
@@ -118,14 +248,14 @@ build all: phony Project_OOP.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/CMakeLists.txt C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/CMakeLists.txt C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################
