@@ -14,4 +14,11 @@ void Sabana::mostrarDetalles() {
     std::cout<<"---Sabana---"<<std::endl;
     std::cout<<"* Cantidad de lagunas: "<<cantidadDeLagunas<<std::endl;
     std::cout<<"* Altura promedio de los arboles: "<<alturaDeArboles<<std::endl;
+
+    //llamar a la definicion original del metodo donde se muestran los animales
+    Habitat::mostrarDetalles();
+}
+
+std::string Sabana::getNombre() {
+    return "Sabana";
 }

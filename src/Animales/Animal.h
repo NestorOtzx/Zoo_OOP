@@ -19,9 +19,17 @@ private:
     Habitat * habitat;
     Alimento alimento;
     std::string salud;
+
+
 public:
     Animal() = default;
-    void Accion();
+
+    std::string getNombre();
+
+
+    virtual void accion();
+    //Retorna el tipo de especie de cada animal con su respectivo pronombre, ej: "La serpiente", "El leon"
+    virtual std::string getEspecie();
 };
 
 

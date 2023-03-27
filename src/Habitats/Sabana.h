@@ -13,7 +13,8 @@ private:
 public:
     Sabana() = default;
     Sabana(int tamanio, int lagunas, float alturaArboles);
-    void mostrarDetalles();
+    void mostrarDetalles() override;
+    std::string getNombre() override;
 };
 
 

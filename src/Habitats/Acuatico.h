@@ -13,7 +13,8 @@ private:
 public:
     Acuatico() = default;
     Acuatico(int tamanio, float profundidad, int corales);
-    void mostrarDetalles();
+    void mostrarDetalles() override;
+    std::string getNombre() override;
 };
 
 

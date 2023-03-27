@@ -14,4 +14,11 @@ void Bosque::mostrarDetalles() {
     std::cout<<"---Bosque---"<<std::endl;
     std::cout<<"* Numero de arboles: "<<cantidadDeArboles<<std::endl;
     std::cout<<"* Nivel de humedad: "<<niveldehumedad<<std::endl;
+
+    //llamar a la definicion original del metodo donde se muestran los animales
+    Habitat::mostrarDetalles();
+}
+
+std::string Bosque::getNombre() {
+    return "Bosque";
 }

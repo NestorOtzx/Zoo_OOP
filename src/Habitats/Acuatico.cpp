@@ -16,4 +16,11 @@ void Acuatico::mostrarDetalles() {
     std::cout<<"---Acuatico---"<<std::endl;
     std::cout<<"* Numero de corales: "<<cantidadDeCorales<<std::endl;
     std::cout<<"* Profundidad del agua: "<<profundidadDelAgua<<std::endl;
+
+    //llamar a la definicion original del metodo donde se muestran los animales
+    Habitat::mostrarDetalles();
+}
+
+std::string Acuatico::getNombre() {
+    return "Acuario";
 }

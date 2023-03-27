@@ -22,6 +22,7 @@ void Zoologico::menu() {
 
         switch (option) {
             case 1:
+                agregarAnimal();
                 break;
             case 2:
                 agregarHabitat();
@@ -46,7 +47,70 @@ void Zoologico::menu() {
 }
 
 void Zoologico::agregarAnimal() {
+    std::cout<<"---Agregar animal---"<<std::endl;
+    std::cout<<"1. Calamar."<<std::endl;
+    std::cout<<"2. Cebra."<<std::endl;
+    std::cout<<"3. Ciervo."<<std::endl;
+    std::cout<<"4. Jirafa."<<std::endl;
+    std::cout<<"5. Mantarraya."<<std::endl;
+    std::cout<<"6. Oso panda."<<std::endl;
+    std::cout<<"7. Serpiente."<<std::endl;
+    std::cout<<"8. Tigre."<<std::endl;
+    std::cout<<"9. Tortuga."<<std::endl;
 
+    int opcionAnimal=-1;
+    std::cout<<"Elija el animal: "<<std::endl;
+    std::cin>>opcionAnimal;
+
+    Animal * animal;
+
+    switch (opcionAnimal) {
+        case 1:
+            animal = new Calamar();
+            break;
+        case 2:
+            animal = new Cebra();
+            break;
+        case 3:
+            animal = new Ciervo();
+            break;
+        case 4:
+            animal = new Jirafa();
+            break;
+        case 5:
+            animal = new Mantarraya();
+            break;
+        case 6:
+            animal = new OsoPanda();
+            break;
+        case 7:
+            animal = new Serpiente();
+            break;
+        case 8:
+            animal = new Tigre();
+            break;
+        case 9:
+            animal = new Tortuga();
+            break;
+    }
+    std::cout<<"---Seleccionar habitat---"<<std::endl;
+    std::list<Habitat*>::iterator habitat;
+
+    //Imprimir los nombres de los habitats disponibles en el zoologico junto con un id dado por el contador.
+    int contador = 1;
+    for(habitat = habitats.begin(); habitat != habitats.end(); ++habitat) {
+        std::cout<<"#"<<contador<<": "<<(*habitat)->getNombre()<<std::endl;
+        ++contador;
+    }
+
+    int opcionHabitat=-1;
+
+    std::cout<<"Donde vivira el animal: "<<animal->getEspecie() <<"?"<<std::endl;
+    std::cin>>opcionHabitat;
+
+    //agregar el animal seleccionado al habitat seleccionado.
+    std::advance(habitat, opcionHabitat);
+    (*habitat)->agregarAnimal(animal);
 }
 
 void Zoologico::agregarHabitat() {
@@ -56,7 +120,7 @@ void Zoologico::agregarHabitat() {
 
     while(opcion < 1 || opcion > 4)
     {
-        std::cout<<"----Que mostrarDetalles de habitat desea agregar?----"<<std::endl;
+        std::cout<<"----Que tipo de habitat desea agregar?----"<<std::endl;
         std::cout<<"1. Bosque"<<std::endl;
         std::cout<<"2. Acuatico"<<std::endl;
         std::cout<<"3. Sabana"<<std::endl;
@@ -150,12 +214,34 @@ void Zoologico::mostrarHabitats() {
 }
 
 Zoologico::Zoologico(int id) { //Constructor para hacer pruebas con caracteristicas definidas
+    Habitat * bosque;
+    Habitat * acuario;
+    Habitat * sabana;
+    Habitat * selva;
+
     switch (id) {
-        case 1: //4 habitats
-            Habitat * bosque = new Bosque(10,1,1);
-            Habitat * acuario = new Acuatico(10,0,1);
-            Habitat * sabana = new Sabana(1,2,1.1f);
-            Habitat * selva = new SelvaTropical(10,1,1);
+        case 1: //4 habitats vacios
+            bosque = new Bosque(10,1,1);
+            acuario = new Acuatico(10,0,1);
+            sabana = new Sabana(1,2,1.1f);
+            selva = new SelvaTropical(10,1,1);
+
+            habitats.push_back(bosque);
+            habitats.push_back(acuario);
+            habitats.push_back(sabana);
+            habitats.push_back(selva);
+            break;
+        case 2://4 habitats con algunos animales
+            bosque = new Bosque(10,1,1);
+            acuario = new Acuatico(10,0,1);
+            sabana = new Sabana(1,2,1.1f);
+            selva = new SelvaTropical(10,1,1);
+
+            selva->agregarAnimal(new Jirafa());
+            selva->agregarAnimal(new OsoPanda());
+            selva->agregarAnimal(new Mantarraya());
+            acuario->agregarAnimal(new Mantarraya());
+
 
             habitats.push_back(bosque);
             habitats.push_back(acuario);

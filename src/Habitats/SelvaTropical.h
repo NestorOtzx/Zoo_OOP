@@ -14,7 +14,8 @@ private:
 public:
     SelvaTropical() = default;
     SelvaTropical(int tamanio, int cantidadLianas, int temperaturaMedia);
-    void mostrarDetalles();
+    void mostrarDetalles() override;
+    std::string getNombre() override;
 };
 
 

@@ -12,7 +12,8 @@ private:
     int niveldehumedad;
 public:
     Bosque(float tamanio, int humedad, int arboles);
-    void mostrarDetalles();
+    void mostrarDetalles() override;
+    std::string getNombre() override;
 };
 
 

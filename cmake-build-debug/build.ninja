@@ -91,6 +91,69 @@ build src/CMakeFiles/Project_OOP_lib.dir/Animales/Animal.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
   OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
 
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Calamar.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Calamar.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Calamar.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Cebra.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Cebra.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Cebra.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Ciervo.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Ciervo.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Ciervo.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Jirafa.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Jirafa.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Jirafa.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Mantarraya.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Mantarraya.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Mantarraya.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/OsoPanda.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/OsoPanda.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\OsoPanda.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Serpiente.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Serpiente.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Serpiente.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Tigre.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Tigre.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Tigre.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
+build src/CMakeFiles/Project_OOP_lib.dir/Animales/Tortuga.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Tortuga.cpp || cmake_object_order_depends_target_Project_OOP_lib
+  DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Animales\Tortuga.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_lib.dir\Animales
+
 build src/CMakeFiles/Project_OOP_lib.dir/Habitats/Acuatico.cpp.obj: CXX_COMPILER__Project_OOP_lib_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Habitats/Acuatico.cpp || cmake_object_order_depends_target_Project_OOP_lib
   DEP_FILE = src\CMakeFiles\Project_OOP_lib.dir\Habitats\Acuatico.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -148,7 +211,7 @@ build src/CMakeFiles/Project_OOP_lib.dir/main.cpp.obj: CXX_COMPILER__Project_OOP
 #############################################
 # Link the static library src\libProject_OOP_lib.a
 
-build src/libProject_OOP_lib.a: CXX_STATIC_LIBRARY_LINKER__Project_OOP_lib_Debug src/CMakeFiles/Project_OOP_lib.dir/Alimento.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Animal.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Acuatico.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Bosque.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Habitat.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Sabana.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/SelvaTropical.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Zoologico.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/main.cpp.obj
+build src/libProject_OOP_lib.a: CXX_STATIC_LIBRARY_LINKER__Project_OOP_lib_Debug src/CMakeFiles/Project_OOP_lib.dir/Alimento.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Animal.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Calamar.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Cebra.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Ciervo.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Jirafa.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Mantarraya.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/OsoPanda.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Serpiente.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Tigre.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Animales/Tortuga.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Acuatico.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Bosque.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Habitat.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/Sabana.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Habitats/SelvaTropical.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/Zoologico.cpp.obj src/CMakeFiles/Project_OOP_lib.dir/main.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src\CMakeFiles\Project_OOP_lib.dir
   POST_BUILD = cd .
@@ -174,6 +237,69 @@ build src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: CXX_COMPILER__Project
 
 build src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Animal.cpp || cmake_object_order_depends_target_Project_OOP_exe
   DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Calamar.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Cebra.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Ciervo.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Jirafa.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Mantarraya.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/OsoPanda.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Serpiente.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Tigre.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+  OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\Project_OOP_exe.dir\Animales
+
+build src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: CXX_COMPILER__Project_OOP_exe_Debug C$:/Users/itsre/Desktop/Tareas$ CPP/Project_OOP/src/Animales/Tortuga.cpp || cmake_object_order_depends_target_Project_OOP_exe
+  DEP_FILE = src\CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
   OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir
@@ -236,7 +362,7 @@ build src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: CXX_COMPILER__Project_OOP
 #############################################
 # Link the executable src\Project_OOP_exe.exe
 
-build src/Project_OOP_exe.exe: CXX_EXECUTABLE_LINKER__Project_OOP_exe_Debug src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj
+build src/Project_OOP_exe.exe: CXX_EXECUTABLE_LINKER__Project_OOP_exe_Debug src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = src\CMakeFiles\Project_OOP_exe.dir

@@ -11,17 +11,23 @@
 class Animal; //le decimos al compilador que el tipo "Animal" existe, para que después pueda ser usado.
 
 class Habitat {
+
 private:
-    Animal * miAnimal;
-    int a1;
     std::list<Animal*> animales;
+
 protected:
     float tamHabitat;
+
 public:
     Habitat() = default;
     void mostrarAnimales();
     void agregarAnimal(Animal * animal);
+
+    //Mostrar los animales en el habitat además de su información.
     virtual void mostrarDetalles();
+
+    //retorna el nombre del habitat
+    virtual std::string getNombre();
 };
 
 
