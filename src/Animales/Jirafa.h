@@ -9,7 +9,11 @@
 class Jirafa: public Animal {
 public:
     Jirafa() = default;
-    void accion() override;
+    void alcanzarComida();
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 

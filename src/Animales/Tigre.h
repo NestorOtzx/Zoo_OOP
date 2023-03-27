@@ -9,7 +9,11 @@
 class Tigre : public Animal{
 public:
     Tigre() = default;
-    void accion() override;
+    void correr();
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 

@@ -4,10 +4,27 @@
 
 #include "Jirafa.h"
 
-void Jirafa::accion() {
-    std::cout<<"Soy una jirafa y estoy intentando alcanzar esa fruta en ese arbol!"<<std::endl;
+void Jirafa::comer() {
+    std::cout<<"Soy una jirafa y como hojas de los arboles altos!"<<std::endl;
 }
 
 std::string Jirafa::getEspecie() {
     return "jirafa";
+}
+
+void Jirafa::mostrarAcciones() {
+    Animal::mostrarAcciones();
+    std::cout<<"Alcanzar comida"<<std::endl;
+}
+
+void Jirafa::ejecutarAccion(std::string accion) {
+    Animal::ejecutarAccion(accion);
+    if (accion == "alcanzar comida")
+    {
+        alcanzarComida();
+    }
+}
+
+void Jirafa::alcanzarComida() {
+    std::cout<<"Soy un ciervo y estoy saltando!"<<std::endl;
 }

@@ -9,7 +9,11 @@
 class Tortuga : public Animal{
 public:
     Tortuga() = default;
-    void accion() override;
+    void esconderseEnCaparazon();
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 

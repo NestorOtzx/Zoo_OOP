@@ -9,7 +9,11 @@
 class OsoPanda : public Animal{
 public:
     OsoPanda() = default;
-    void accion() override;
+    void dormirMas();
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 

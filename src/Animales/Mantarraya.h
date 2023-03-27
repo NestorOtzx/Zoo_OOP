@@ -9,7 +9,11 @@
 class Mantarraya : public Animal {
 public:
     Mantarraya() = default;
-    void accion() override;
+    void nadar();
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 

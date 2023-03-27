@@ -4,8 +4,8 @@
 
 #include "Animal.h"
 
-void Animal::accion() {
-    std::cout<<nombre<<" accion basica."<<std::endl;
+void Animal::comer() {
+    std::cout<<nombre<<" como."<<std::endl;
 }
 
 std::string Animal::getEspecie() {
@@ -15,3 +15,27 @@ std::string Animal::getEspecie() {
 std::string Animal::getNombre() {
     return this->nombre;
 }
+
+void Animal::dormir() {
+    std::cout<<"Zzzz... Zzz..."<<std::endl;
+}
+
+void Animal::ejecutarAccion(std::string accion) {
+
+    if (accion == "comer")
+    {
+        comer();
+        return;
+    }
+    if (accion == "dormir")
+    {
+        dormir();
+    }
+}
+
+void Animal::mostrarAcciones() {
+    std::cout<<"--Acciones--"<<std::endl;
+    std::cout<<"Comer"<<std::endl;
+    std::cout<<"Dormir"<<std::endl;
+}
+

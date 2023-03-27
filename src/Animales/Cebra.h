@@ -9,7 +9,11 @@
 class Cebra : public Animal{
 public:
     Cebra() = default;
-    void accion() override;
+    void correr();
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 

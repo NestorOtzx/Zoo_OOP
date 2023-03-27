@@ -9,6 +9,7 @@
 #include <iostream>
 #include <string>
 
+
 class Habitat; //le decimos al compilador que el tipo "Habitat" existe, para que después pueda ser usado.
 
 
@@ -26,8 +27,13 @@ public:
 
     std::string getNombre();
 
+    //Acciones
 
-    virtual void accion();
+    void dormir();
+
+    virtual void ejecutarAccion(std::string accion);
+    virtual void mostrarAcciones();
+    virtual void comer();
     //Retorna el tipo de especie de cada animal con su respectivo pronombre, ej: "La serpiente", "El leon"
     virtual std::string getEspecie();
 };

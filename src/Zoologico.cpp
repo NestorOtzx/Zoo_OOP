@@ -216,12 +216,32 @@ void Zoologico::interactuarAnimal() {
     int opcionAnimal=0;
     std::cin>>opcionAnimal;
 
+    //seleccionar la accion a realizar del animal
+    (*habitat)->getAnimal(opcionAnimal-1)->mostrarAcciones();
+
+    // Limpiamos el buffer antes de leer la entrada
+    std::cin.clear(); // Limpiamos cualquier indicador de error en cin
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignoramos cualquier entrada hasta el siguiente carácter de nueva línea
+
+
+    std::string accion="";
+
+    std::cout<<"Escriba exactamente la opcion que va a realizar el animal"<<std::endl;
+    std::getline(std::cin, accion);
+
+
     //ejecutar la accion del animal seleccionado.
-    (*habitat)->getAnimal(opcionAnimal-1)->accion();
-
-
-
+    accionAnimal(*habitat, opcionAnimal-1, accion);
 }
+
+
+void Zoologico::accionAnimal(Habitat *habitat, int animalID, std::string nombreAccion) {
+    for (char & c : nombreAccion) {
+        c = std::tolower(c); // Convertir cada caracter a minúscula para evitar errores
+    }
+    habitat->getAnimal(animalID)->ejecutarAccion(nombreAccion);
+}
+
 
 void Zoologico::editarAlimento() {
 

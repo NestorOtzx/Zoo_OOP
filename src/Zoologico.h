@@ -26,6 +26,9 @@
 //Otros
 #include <list>
 #include <iostream>
+#include <string>
+#include <cctype> //para pasar de mayusculas a minusculas
+#include <limits> //para limpiar el buffer de cin
 
 class Zoologico {
 private:
@@ -44,7 +47,12 @@ public:
     void agregarHabitat();
     void mostrarAnimales();
     void mostrarHabitats();
+
+    //muestra al usuario las acciones que puede realizar un animal, el usuario podrá escoger cual hacer.
     void interactuarAnimal();
+    //ejecuta una accion especifica en un animal especifico
+    void accionAnimal(Habitat *habitat, int animalID, std::string nombreAccion);
+
     void editarAlimento();
 };
 

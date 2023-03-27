@@ -9,7 +9,11 @@
 class Ciervo : public Animal{
 public:
     Ciervo() = default;
-    void accion() override;
+    void saltar();
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 

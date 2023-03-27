@@ -10,7 +10,12 @@
 class Calamar : public Animal{
 public:
     Calamar() = default;
-    void accion() override;
+    void arrojarTinta();
+
+
+    void ejecutarAccion(std::string accion) override;
+    void mostrarAcciones() override;
+    void comer() override;
     std::string getEspecie() override;
 };
 
