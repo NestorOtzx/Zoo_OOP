@@ -5,7 +5,7 @@
 #include "Tigre.h"
 
 void Tigre::accion() {
-    Animal::accion();
+    std::cout<<"Soy un tigre y estoy comiendo carne!"<<std::endl;
 }
 
 std::string Tigre::getEspecie() {

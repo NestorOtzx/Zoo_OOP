@@ -5,7 +5,7 @@
 #include "OsoPanda.h"
 
 void OsoPanda::accion() {
-    Animal::accion();
+    std::cout<<"Zzzz... Zzzzz..."<<std::endl;
 }
 
 std::string OsoPanda::getEspecie() {

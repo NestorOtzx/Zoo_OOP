@@ -5,7 +5,7 @@
 #include "Jirafa.h"
 
 void Jirafa::accion() {
-    Animal::accion();
+    std::cout<<"Soy una jirafa y estoy intentando alcanzar esa fruta en ese arbol!"<<std::endl;
 }
 
 std::string Jirafa::getEspecie() {

@@ -5,7 +5,7 @@
 #include "Tortuga.h"
 
 void Tortuga::accion() {
-    Animal::accion();
+    std::cout<<"Soy una tortuga y estoy escondida en mi caparazon!"<<std::endl;
 }
 
 std::string Tortuga::getEspecie() {

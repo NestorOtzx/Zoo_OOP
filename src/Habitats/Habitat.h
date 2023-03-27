@@ -23,6 +23,9 @@ public:
     void mostrarAnimales();
     void agregarAnimal(Animal * animal);
 
+    //Obtener un animal por su id en la lista;
+    Animal * getAnimal(int id);
+
     //Mostrar los animales en el habitat además de su información.
     virtual void mostrarDetalles();
 

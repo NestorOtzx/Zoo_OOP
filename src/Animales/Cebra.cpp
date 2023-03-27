@@ -5,7 +5,7 @@
 #include "Cebra.h"
 
 void Cebra::accion() {
-    Animal::accion();
+    std::cout<<"Soy una cebra y corro por el terreno!"<<std::endl;
 }
 
 std::string Cebra::getEspecie() {

@@ -7,16 +7,15 @@
 void Zoologico::menu() {
     int option =0;
 
-    while(option != 7)
+    while(option != 6)
     {
         std::cout<<"------Zoologico------"<<std::endl;
         std::cout<<"1. Agregar animal"<<std::endl;
         std::cout<<"2. Agregar habitat"<<std::endl;
-        std::cout<<"3. Mostrar todos los animales"<<std::endl;
-        std::cout<<"4. Mostrar todos los habitats"<<std::endl;
-        std::cout<<"5. Interactuar con animal"<<std::endl;
-        std::cout<<"6. Editar alimentos"<<std::endl;
-        std::cout<<"7. Salir"<<std::endl;
+        std::cout<<"3. Mostrar todos los habitats"<<std::endl;
+        std::cout<<"4. Interactuar con animal"<<std::endl;
+        std::cout<<"5. Editar alimentos"<<std::endl;
+        std::cout<<"6. Salir"<<std::endl;
 
         std::cin>>option;
 
@@ -28,15 +27,14 @@ void Zoologico::menu() {
                 agregarHabitat();
                 break;
             case 3:
+                mostrarHabitats();
                 break;
             case 4:
-                mostrarHabitats();
+                interactuarAnimal();
                 break;
             case 5:
                 break;
             case 6:
-                break;
-            case 7:
                 std::cout<<"Hasta luego"<<std::endl;
                 break;
             default:
@@ -197,6 +195,31 @@ void Zoologico::mostrarAnimales() {
 }
 
 void Zoologico::interactuarAnimal() {
+    std::cout<<"---Seleccionar habitat---"<<std::endl;
+    std::list<Habitat*>::iterator habitat;
+
+    //Imprimir los nombres de los habitats disponibles en el zoologico junto con un id dado por el contador.
+    int contador = 1;
+    for(habitat = habitats.begin(); habitat != habitats.end(); ++habitat) {
+        std::cout<<"#"<<contador<<": "<<(*habitat)->getNombre()<<std::endl;
+        ++contador;
+    }
+    int opcionHabitat=-1;
+    std::cout<<"Seleccione el habitat donde esta el animal para interactuar:"<<std::endl;
+    std::cin>>opcionHabitat;
+
+
+    //Imprimir los animales del habitat y posteriormente seleccionar uno de ellos.
+    advance(habitat, opcionHabitat);
+    (*habitat)->mostrarAnimales();
+    std::cout<<"Seleccione el animal para interactuar:"<<std::endl;
+    int opcionAnimal=0;
+    std::cin>>opcionAnimal;
+
+    //ejecutar la accion del animal seleccionado.
+    (*habitat)->getAnimal(opcionAnimal-1)->accion();
+
+
 
 }
 
@@ -247,6 +270,33 @@ Zoologico::Zoologico(int id) { //Constructor para hacer pruebas con caracteristi
             habitats.push_back(acuario);
             habitats.push_back(sabana);
             habitats.push_back(selva);
+            break;
+        case 3: //4 habitats, todos con 2 animales
+            bosque = new Bosque(10,1,1);
+            acuario = new Acuatico(10,0,1);
+            sabana = new Sabana(1,2,1.1f);
+            selva = new SelvaTropical(10,1,1);
+
+            bosque->agregarAnimal(new Tigre());
+            bosque->agregarAnimal(new OsoPanda());
+
+            acuario->agregarAnimal(new Mantarraya());
+            acuario->agregarAnimal(new Calamar());
+
+            sabana->agregarAnimal(new Ciervo());
+            sabana->agregarAnimal(new Cebra());
+
+            selva->agregarAnimal(new Serpiente());
+            selva->agregarAnimal(new Tigre());
+
+            habitats.push_back(bosque);
+            habitats.push_back(acuario);
+            habitats.push_back(sabana);
+            habitats.push_back(selva);
+            break;
+        default:
+            habitats = std::list<Habitat*>();
+
             break;
     }
 }

@@ -5,7 +5,7 @@
 #include "Calamar.h"
 
 void Calamar::accion() {
-    Animal::accion();
+    std::cout<<"Soy un calamar y tiro tinta!"<<std::endl;
 }
 
 std::string Calamar::getEspecie() {
