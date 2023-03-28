@@ -10,6 +10,8 @@
 class Cebra : public Animal{
 public:
     Cebra() = default;
+    Cebra(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void correr();
 
     bool puedeHabitar(Habitat * habitat) override;

@@ -280,10 +280,10 @@ Zoologico::Zoologico(int id) { //Constructor para hacer pruebas con caracteristi
             sabana = new Sabana(1,2,1.1f);
             selva = new SelvaTropical(10,1,1);
 
-            selva->agregarAnimal(new Jirafa());
-            selva->agregarAnimal(new OsoPanda());
-            selva->agregarAnimal(new Mantarraya());
-            acuario->agregarAnimal(new Mantarraya());
+            selva->agregarAnimal(new Serpiente("cesar", 5, "bien"));
+            selva->agregarAnimal(new Tigre("camilo", 6, "bien"));
+            acuario->agregarAnimal(new Mantarraya("pepe", 3, "bien"));
+            acuario->agregarAnimal(new Mantarraya("javi", 4, "mal"));
 
 
             habitats.push_back(bosque);
@@ -297,17 +297,17 @@ Zoologico::Zoologico(int id) { //Constructor para hacer pruebas con caracteristi
             sabana = new Sabana(1,2,1.1f);
             selva = new SelvaTropical(10,1,1);
 
-            bosque->agregarAnimal(new Tigre());
-            bosque->agregarAnimal(new OsoPanda());
+            bosque->agregarAnimal(new Tigre("carlos", 12, "bien"));
+            bosque->agregarAnimal(new OsoPanda("panda", 3, "bien"));
 
-            acuario->agregarAnimal(new Mantarraya());
-            acuario->agregarAnimal(new Calamar());
+            acuario->agregarAnimal(new Mantarraya("pedro", 4, "mal"));
+            acuario->agregarAnimal(new Calamar("calamardo", 5, "mas o menos"));
 
-            sabana->agregarAnimal(new Ciervo());
-            sabana->agregarAnimal(new Cebra());
+            sabana->agregarAnimal(new Ciervo("rodrigo", 1, "bien"));
+            sabana->agregarAnimal(new Cebra("alex", 3, "bien"));
 
-            selva->agregarAnimal(new Serpiente());
-            selva->agregarAnimal(new Tigre());
+            selva->agregarAnimal(new Serpiente("erick", 5, "mal"));
+            selva->agregarAnimal(new Tigre("tonio", 6, "mal"));
 
             habitats.push_back(bosque);
             habitats.push_back(acuario);

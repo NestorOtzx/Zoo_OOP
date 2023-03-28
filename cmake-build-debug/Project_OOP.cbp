@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project_OOP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_OOP_lib">
+				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/libProject_OOP_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_lib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_OOP_lib/fast">
+				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/libProject_OOP_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_OOP_exe">
+				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Project_OOP_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_exe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_OOP_exe/fast">
+				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Project_OOP_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_exe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Alimento.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Alimento.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Animal.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Animal.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Calamar.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Calamar.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Cebra.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Cebra.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Ciervo.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Ciervo.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Jirafa.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Jirafa.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Mantarraya.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Mantarraya.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/OsoPanda.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/OsoPanda.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Serpiente.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Serpiente.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tigre.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tigre.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tortuga.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tortuga.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Acuatico.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Acuatico.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Bosque.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Bosque.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Habitat.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Habitat.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Sabana.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Sabana.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/SelvaTropical.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/SelvaTropical.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Zoologico.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Zoologico.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/main.cpp">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

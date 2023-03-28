@@ -7,10 +7,13 @@
 void Habitat::mostrarAnimales() {
     std::list<Animal*>::iterator animal = animales.begin();
 
+    std::cout<<" ID | NOMBRE | EDAD | ESPECIE | ALIMENTACION | ESTADO DE SALUD | "<<std::endl;
     int contador = 1;
     for(animal; animal != animales.end(); ++animal)
     {
-        std::cout<<"#"<<contador<<": "<<(*animal)->getEspecie()<<std::endl;
+        std::cout<<"#"<<contador<<": | "<<(*animal)->getNombre()<<" | "
+        <<(*animal)->getEdad()<<" anios | "<<(*animal)->getEspecie()
+        <<" | Alimentacion | "<<(*animal)->getEstadoSalud()<<" |"<<std::endl;
         ++contador;
     }
 }

@@ -10,6 +10,8 @@
 class Tigre : public Animal{
 public:
     Tigre() = default;
+    Tigre(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void correr();
 
     bool puedeHabitar(Habitat * habitat) override;

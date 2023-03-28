@@ -1,11 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Project_OOP_exe.exe"
-		},
-		{
-			"path" : "src/Project_OOP_exe.pdb"
+			"path" : "src/libProject_OOP_lib.a"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +11,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"include_directories"
 		],
 		"files" : 
@@ -29,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -56,7 +54,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"
+					"path" : "/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"
 				}
 			],
 			"language" : "CXX",
@@ -83,28 +81,9 @@
 			]
 		}
 	],
-	"id" : "Project_OOP_exe::@145eef247bfb46b6828c",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "Project_OOP_exe",
-	"nameOnDisk" : "Project_OOP_exe.exe",
+	"id" : "Project_OOP_lib::@145eef247bfb46b6828c",
+	"name" : "Project_OOP_lib",
+	"nameOnDisk" : "libProject_OOP_lib.a",
 	"paths" : 
 	{
 		"build" : "src",
@@ -356,5 +335,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

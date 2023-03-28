@@ -9,6 +9,8 @@
 class Jirafa: public Animal {
 public:
     Jirafa() = default;
+    Jirafa(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void alcanzarComida();
 
     bool puedeHabitar(Habitat * habitat) override;

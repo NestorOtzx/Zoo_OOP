@@ -15,16 +15,18 @@ class Habitat; //le decimos al compilador que el tipo "Habitat" existe, para que
 class Animal {
 private:
     std::string nombre;
-    std::string especie;
     Habitat * habitat;
+    int edad;
     Alimento alimento;
     std::string salud;
 
-
 public:
     Animal() = default;
+    Animal(std::string nombre, int edad, std::string salud);
 
     std::string getNombre();
+    int getEdad();
+    std::string getEstadoSalud();
 
     //Acciones
 

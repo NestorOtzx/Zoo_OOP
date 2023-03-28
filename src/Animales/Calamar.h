@@ -12,6 +12,8 @@
 class Calamar : public Animal{
 public:
     Calamar() = default;
+    Calamar(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void arrojarTinta();
 
     bool puedeHabitar(Habitat * habitat) override;

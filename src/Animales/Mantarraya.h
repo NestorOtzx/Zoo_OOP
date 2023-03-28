@@ -9,6 +9,8 @@
 class Mantarraya : public Animal {
 public:
     Mantarraya() = default;
+    Mantarraya(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void nadar();
 
     bool puedeHabitar(Habitat * habitat) override;

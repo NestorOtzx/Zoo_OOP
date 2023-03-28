@@ -2,7 +2,7 @@
 #include "Zoologico.h"
 
 int main() {
-    Zoologico zoo = Zoologico(3);
+    Zoologico zoo = Zoologico(2);
 
     zoo.menu();
     return 0;

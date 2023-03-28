@@ -11,6 +11,8 @@
 class Tortuga : public Animal{
 public:
     Tortuga() = default;
+    Tortuga(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void esconderseEnCaparazon();
 
     bool puedeHabitar(Habitat * habitat) override;

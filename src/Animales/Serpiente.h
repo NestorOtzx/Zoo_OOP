@@ -10,6 +10,8 @@
 class Serpiente : public Animal{
 public:
     Serpiente() = default;
+    Serpiente(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void esconderse();
 
     bool puedeHabitar(Habitat * habitat) override;

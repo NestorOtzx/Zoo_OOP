@@ -10,6 +10,8 @@
 class OsoPanda : public Animal{
 public:
     OsoPanda() = default;
+    OsoPanda(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+
     void dormirMas();
 
     bool puedeHabitar(Habitat * habitat) override;
