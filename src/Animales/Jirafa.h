@@ -11,6 +11,7 @@ public:
     Jirafa() = default;
     void alcanzarComida();
 
+    bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
     void comer() override;

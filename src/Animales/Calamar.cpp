@@ -28,3 +28,9 @@ void Calamar::ejecutarAccion(std::string accion) {
 void Calamar::arrojarTinta() {
     std::cout<<"Soy un calamar y arrojo tinta!"<<std::endl;
 }
+
+bool Calamar::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es acuatico, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_ACUARIO;
+    return puedePertenecer;
+}

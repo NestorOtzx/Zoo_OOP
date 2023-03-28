@@ -29,3 +29,10 @@ void Ciervo::ejecutarAccion(std::string accion) {
 void Ciervo::saltar() {
     std::cout<<"Soy un ciervo y estoy saltando!"<<std::endl;
 }
+
+bool Ciervo::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es bosque o sabana, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_SABANA
+                           || habitat->getNombre() == NOMBRE_BOSQUE;
+    return puedePertenecer;
+}

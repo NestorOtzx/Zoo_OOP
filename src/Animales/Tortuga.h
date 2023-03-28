@@ -6,11 +6,14 @@
 #define PROJECT_OOP_TORTUGA_H
 #include "Animal.h"
 
+
+
 class Tortuga : public Animal{
 public:
     Tortuga() = default;
     void esconderseEnCaparazon();
 
+    bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
     void comer() override;

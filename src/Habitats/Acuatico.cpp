@@ -22,5 +22,5 @@ void Acuatico::mostrarDetalles() {
 }
 
 std::string Acuatico::getNombre() {
-    return "Acuario";
+    return NOMBRE_ACUARIO;
 }

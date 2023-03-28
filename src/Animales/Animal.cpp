@@ -39,3 +39,8 @@ void Animal::mostrarAcciones() {
     std::cout<<"Dormir"<<std::endl;
 }
 
+bool Animal::puedeHabitar(Habitat* habitat) {
+    return true;
+}
+
+

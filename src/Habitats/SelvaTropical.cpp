@@ -20,5 +20,5 @@ void SelvaTropical::mostrarDetalles() {
 }
 
 std::string SelvaTropical::getNombre() {
-    return "Selva tropical";
+    return NOMBRE_SELVA;
 }

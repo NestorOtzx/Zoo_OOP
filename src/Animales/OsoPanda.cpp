@@ -28,3 +28,9 @@ void OsoPanda::ejecutarAccion(std::string accion) {
 void OsoPanda::dormirMas() {
     std::cout<<"Zzzzzzzzzzzzzz........ Zzzzzzzzzzzz...."<<std::endl;
 }
+
+bool OsoPanda::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es bosque, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_BOSQUE;
+    return puedePertenecer;
+}

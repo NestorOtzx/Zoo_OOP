@@ -11,6 +11,7 @@ public:
     Mantarraya() = default;
     void nadar();
 
+    bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
     void comer() override;

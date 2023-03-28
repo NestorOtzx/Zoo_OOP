@@ -6,11 +6,13 @@
 #define PROJECT_OOP_CIERVO_H
 #include "Animal.h"
 
+
 class Ciervo : public Animal{
 public:
     Ciervo() = default;
     void saltar();
 
+    bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
     void comer() override;

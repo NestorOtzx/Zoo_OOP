@@ -8,10 +8,16 @@
 #include <iostream>
 #include "Animales/Animal.h"
 
+//Constantes globales
+#define NOMBRE_ACUARIO "Acuario"
+#define NOMBRE_SELVA "Selva tropical"
+#define NOMBRE_BOSQUE "Bosque"
+#define NOMBRE_SABANA "Sabana"
+
+
 class Animal; //le decimos al compilador que el tipo "Animal" existe, para que después pueda ser usado.
 
 class Habitat {
-
 private:
     std::list<Animal*> animales;
 

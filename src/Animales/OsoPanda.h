@@ -6,11 +6,13 @@
 #define PROJECT_OOP_OSOPANDA_H
 #include "Animal.h"
 
+
 class OsoPanda : public Animal{
 public:
     OsoPanda() = default;
     void dormirMas();
 
+    bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
     void comer() override;

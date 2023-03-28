@@ -6,11 +6,13 @@
 #define PROJECT_OOP_TIGRE_H
 #include "Animal.h"
 
+
 class Tigre : public Animal{
 public:
     Tigre() = default;
     void correr();
 
+    bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
     void comer() override;

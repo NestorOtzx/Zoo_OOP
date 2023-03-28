@@ -20,5 +20,5 @@ void Sabana::mostrarDetalles() {
 }
 
 std::string Sabana::getNombre() {
-    return "Sabana";
+    return NOMBRE_SABANA;
 }

@@ -6,11 +6,13 @@
 #define PROJECT_OOP_SERPIENTE_H
 #include "Animal.h"
 
+
 class Serpiente : public Animal{
 public:
     Serpiente() = default;
     void esconderse();
 
+    bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
     void comer() override;

@@ -28,3 +28,10 @@ void Serpiente::ejecutarAccion(std::string accion) {
 void Serpiente::esconderse() {
     std::cout<<"Soy una serpiente... y estoy escondida..."<<std::endl;
 }
+
+bool Serpiente::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es selva tropical o sabana, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_SELVA
+                           || habitat->getNombre() == NOMBRE_SABANA;
+    return puedePertenecer;
+}

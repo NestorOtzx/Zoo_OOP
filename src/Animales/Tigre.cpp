@@ -28,3 +28,11 @@ void Tigre::ejecutarAccion(std::string accion) {
 void Tigre::correr() {
     std::cout<<"Soy un tigre y estoy corriendo."<<std::endl;
 }
+
+bool Tigre::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es bosque o sabana, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_SABANA
+                           || habitat->getNombre() == NOMBRE_BOSQUE
+                           || habitat->getNombre() == NOMBRE_SELVA;
+    return puedePertenecer;
+}

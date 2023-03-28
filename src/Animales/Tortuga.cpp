@@ -28,3 +28,10 @@ void Tortuga::ejecutarAccion(std::string accion) {
 void Tortuga::esconderseEnCaparazon() {
     std::cout<<"Soy una tortuga y estoy escondida en mi caparazon!"<<std::endl;
 }
+
+bool Tortuga::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es acuatico, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_ACUARIO
+            || habitat->getNombre() == NOMBRE_BOSQUE;
+    return puedePertenecer;
+}

@@ -16,7 +16,12 @@ void Habitat::mostrarAnimales() {
 }
 
 void Habitat::agregarAnimal(Animal * animal) {
-    animales.push_back(animal);
+    if (animal->puedeHabitar(this))
+    {
+        animales.push_back(animal);
+    }else{
+        std::cout<<"La especie "<<animal->getEspecie()<<" NO puede pertenecer a el habitat "<<getNombre()<<std::endl;
+    }
 }
 
 void Habitat::mostrarDetalles() {

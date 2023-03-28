@@ -20,5 +20,5 @@ void Bosque::mostrarDetalles() {
 }
 
 std::string Bosque::getNombre() {
-    return "Bosque";
+    return NOMBRE_BOSQUE;
 }

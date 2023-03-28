@@ -28,3 +28,9 @@ void Mantarraya::ejecutarAccion(std::string accion) {
 void Mantarraya::nadar() {
     std::cout<<"Soy una mantarraya y estoy nadando."<<std::endl;
 }
+
+bool Mantarraya::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es acuatico, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_ACUARIO;
+    return puedePertenecer;
+}

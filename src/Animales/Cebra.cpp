@@ -28,3 +28,10 @@ void Cebra::ejecutarAccion(std::string accion) {
 void Cebra::correr() {
     std::cout<<"Soy una cebra y estoy corriendo!"<<std::endl;
 }
+
+bool Cebra::puedeHabitar(Habitat * habitat) {
+    //si el habitat recibido es bosque o sabana, sera verdadero.
+    bool puedePertenecer = habitat->getNombre() == NOMBRE_SABANA
+            || habitat->getNombre() == NOMBRE_BOSQUE;
+    return puedePertenecer;
+}
