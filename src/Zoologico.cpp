@@ -45,6 +45,8 @@ void Zoologico::menu() {
 }
 
 void Zoologico::agregarAnimal() {
+
+    //Animal
     std::cout<<"---Agregar animal---"<<std::endl;
     std::cout<<"1. Calamar."<<std::endl;
     std::cout<<"2. Cebra."<<std::endl;
@@ -60,40 +62,59 @@ void Zoologico::agregarAnimal() {
     std::cout<<"Elija el animal: "<<std::endl;
     std::cin>>opcionAnimal;
 
-    Animal * animal;
+    //Datos
+    std::cout<<"Esciba el nombre del animal: "<<std::endl;
+    std::string nombre = "";
+    // Limpiamos el buffer antes de leer la entrada
+    std::cin.clear(); // Limpiamos cualquier indicador de error en cin
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignoramos cualquier entrada hasta el siguiente carácter de nueva línea
+    std::getline(std::cin, nombre);
 
+    std::cout<<"Digite cuantos anios tiene "<<nombre<<": "<<std::endl;
+    int edad = 0;
+    std::cin>>edad;
+
+    std::cout<<"Describa el estado de salud de "<<nombre<<": "<<std::endl;
+    std::string salud = "";
+    // Limpiamos el buffer antes de leer la entrada
+    std::cin.clear(); // Limpiamos cualquier indicador de error en cin
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignoramos cualquier entrada hasta el siguiente carácter de nueva línea
+    std::getline(std::cin, salud);
+
+    Animal * animal;
     switch (opcionAnimal) {
         case 1:
-            animal = new Calamar();
+            animal = new Calamar(nombre, edad, salud);
             break;
         case 2:
-            animal = new Cebra();
+            animal = new Cebra(nombre, edad, salud);
             break;
         case 3:
-            animal = new Ciervo();
+            animal = new Ciervo(nombre, edad, salud);
             break;
         case 4:
-            animal = new Jirafa();
+            animal = new Jirafa(nombre, edad, salud);
             break;
         case 5:
-            animal = new Mantarraya();
+            animal = new Mantarraya(nombre, edad, salud);
             break;
         case 6:
-            animal = new OsoPanda();
+            animal = new OsoPanda(nombre, edad, salud);
             break;
         case 7:
-            animal = new Serpiente();
+            animal = new Serpiente(nombre, edad, salud);
             break;
         case 8:
-            animal = new Tigre();
+            animal = new Tigre(nombre, edad, salud);
             break;
         case 9:
-            animal = new Tortuga();
+            animal = new Tortuga(nombre, edad, salud);
             break;
     }
+
+    //Habitat
     std::cout<<"---Seleccionar habitat---"<<std::endl;
     std::list<Habitat*>::iterator habitat;
-
     //Imprimir los nombres de los habitats disponibles en el zoologico junto con un id dado por el contador.
     int contador = 1;
     for(habitat = habitats.begin(); habitat != habitats.end(); ++habitat) {
@@ -103,6 +124,9 @@ void Zoologico::agregarAnimal() {
 
     int opcionHabitat=-1;
 
+    // Limpiamos el buffer antes de leer la entrada
+    std::cin.clear(); // Limpiamos cualquier indicador de error en cin
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignoramos cualquier entrada hasta el siguiente carácter de nueva línea
     std::cout<<"Donde vivira el animal: "<<animal->getEspecie() <<"?"<<std::endl;
     std::cin>>opcionHabitat;
 
