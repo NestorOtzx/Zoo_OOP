@@ -11,9 +11,9 @@ void Habitat::mostrarAnimales() {
     int contador = 1;
     for(animal; animal != animales.end(); ++animal)
     {
-        std::cout<<"#"<<contador<<": | "<<(*animal)->getNombre()<<" | "
-        <<(*animal)->getEdad()<<" anios | "<<(*animal)->getEspecie()
-        <<" | Alimentacion | "<<(*animal)->getEstadoSalud()<<" |"<<std::endl;
+        std::cout << "#" << contador << ": | " << (*animal)->getNombre() << " | "
+                  << (*animal)->getEdad() << " anios | " << (*animal)->getEspecie()
+                  << " | " << (*animal)->getNombreComida() << " | " << (*animal)->getEstadoSalud() << " |" << std::endl;
         ++contador;
     }
 }

@@ -7,16 +7,18 @@
 #include "Animal.h"
 
 class Jirafa: public Animal {
+private:
+    const TipoAlimento tipo = TipoAlimento::Herbivoro;
 public:
     Jirafa() = default;
-    Jirafa(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+    Jirafa(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("hojas", tipo); }
 
     void alcanzarComida();
 
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
-    void comer() override;
+
     std::string getEspecie() override;
 };
 

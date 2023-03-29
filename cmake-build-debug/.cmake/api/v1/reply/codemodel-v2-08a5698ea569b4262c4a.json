@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -20,7 +20,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -57,14 +57,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Project_OOP_exe::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Project_OOP_exe-Debug-7ceb9620a67a9cb11da1.json",
+					"jsonFile" : "target-Project_OOP_exe-Debug-c2ce1d2c6fbcbd9b4cb5.json",
 					"name" : "Project_OOP_exe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Project_OOP_lib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Project_OOP_lib-Debug-a3cd71b25e2933b77894.json",
+					"jsonFile" : "target-Project_OOP_lib-Debug-dfe448b2b4874e0e107b.json",
 					"name" : "Project_OOP_lib",
 					"projectIndex" : 0
 				}
@@ -74,8 +74,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug",
-		"source" : "/home/nestor/Escritorio/cppTareas/Zoo_OOP"
+		"build" : "C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug",
+		"source" : "C:/Users/itsre/Desktop/Tareas CPP/Project_OOP"
 	},
 	"version" : 
 	{

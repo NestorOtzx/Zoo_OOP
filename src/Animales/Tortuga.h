@@ -9,16 +9,18 @@
 
 
 class Tortuga : public Animal{
+private:
+    const TipoAlimento tipo = TipoAlimento::Herbivoro;
 public:
     Tortuga() = default;
-    Tortuga(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+    Tortuga(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("lechuga", tipo); }
 
     void esconderseEnCaparazon();
 
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
-    void comer() override;
+
     std::string getEspecie() override;
 };
 

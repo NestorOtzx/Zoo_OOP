@@ -8,272 +8,272 @@
 		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug"/>
+				<Option working_dir="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_OOP_lib">
-				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/libProject_OOP_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option output="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/libProject_OOP_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_lib"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_lib"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_OOP_lib/fast">
-				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/libProject_OOP_lib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option output="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/libProject_OOP_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_lib/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_lib/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_OOP_exe">
-				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Project_OOP_exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option output="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Project_OOP_exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_exe"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_exe"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_OOP_exe/fast">
-				<Option output="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Project_OOP_exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src"/>
+				<Option output="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Project_OOP_exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_exe/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Project_OOP_exe/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Alimento.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Alimento.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Animal.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Animal.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Calamar.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Calamar.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Calamar.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Calamar.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Cebra.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Cebra.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Cebra.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Cebra.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Ciervo.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Ciervo.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Ciervo.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Ciervo.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Jirafa.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Jirafa.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Jirafa.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Jirafa.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Mantarraya.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Mantarraya.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Mantarraya.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Mantarraya.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/OsoPanda.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/OsoPanda.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/OsoPanda.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/OsoPanda.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Serpiente.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Serpiente.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Serpiente.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Serpiente.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tigre.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Tigre.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tigre.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Tigre.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tortuga.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Tortuga.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Animales/Tortuga.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Tortuga.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Acuatico.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Acuatico.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Acuatico.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Acuatico.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Bosque.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Bosque.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Bosque.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Bosque.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Habitat.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Habitat.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Sabana.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Sabana.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/Sabana.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Sabana.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/SelvaTropical.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/SelvaTropical.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Habitats/SelvaTropical.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/SelvaTropical.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Zoologico.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Zoologico.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/Zoologico.h">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Zoologico.h">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/main.cpp">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/main.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/CMakeLists.txt">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/nestor/Escritorio/cppTareas/Zoo_OOP/src/CMakeLists.txt">
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>

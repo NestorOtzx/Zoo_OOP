@@ -45,7 +45,6 @@ public:
     void menu();
     void agregarAnimal();
     void agregarHabitat();
-    void mostrarAnimales();
     void mostrarHabitats();
 
     //muestra al usuario las acciones que puede realizar un animal, el usuario podrá escoger cual hacer.

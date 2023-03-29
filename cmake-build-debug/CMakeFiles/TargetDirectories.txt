@@ -1,6 +1,6 @@
-/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/CMakeFiles/Project_OOP_lib.dir
-/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/CMakeFiles/Project_OOP_exe.dir
-/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/nestor/Escritorio/cppTareas/Zoo_OOP/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/CMakeFiles/Project_OOP_lib.dir
+C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/CMakeFiles/Project_OOP_exe.dir
+C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

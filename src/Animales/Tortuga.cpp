@@ -4,10 +4,6 @@
 
 #include "Tortuga.h"
 
-void Tortuga::comer() {
-    std::cout<<"Soy una tortuga y como lechuga!"<<std::endl;
-}
-
 std::string Tortuga::getEspecie() {
     return "tortuga";
 }

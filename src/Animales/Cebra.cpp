@@ -4,10 +4,6 @@
 
 #include "Cebra.h"
 
-void Cebra::comer() {
-    std::cout<<"Soy una cebra y como hojas!"<<std::endl;
-}
-
 std::string Cebra::getEspecie() {
     return "cebra";
 }

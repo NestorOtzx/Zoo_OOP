@@ -4,10 +4,6 @@
 
 #include "Jirafa.h"
 
-void Jirafa::comer() {
-    std::cout<<"Soy una jirafa y como hojas de los arboles altos!"<<std::endl;
-}
-
 std::string Jirafa::getEspecie() {
     return "jirafa";
 }

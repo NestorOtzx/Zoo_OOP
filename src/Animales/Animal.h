@@ -14,22 +14,32 @@ class Habitat; //le decimos al compilador que el tipo "Habitat" existe, para que
 
 class Animal {
 private:
+    const TipoAlimento tipoAlimento = TipoAlimento::Herbivoro;
     std::string nombre;
     Habitat * habitat;
     int edad;
-    Alimento alimento;
     std::string salud;
+
+protected:
+    Alimento alimento;
 
 public:
     Animal() = default;
     Animal(std::string nombre, int edad, std::string salud);
 
+    //getters
     std::string getNombre();
-    int getEdad();
     std::string getEstadoSalud();
+    std::string getNombreComida();
+
+    int getEdad();
+    TipoAlimento getTipoAlimento();
+
+    //setters
+    void setAlimento(Alimento nuevoAlimento);
 
     //Acciones
-
+    void comer();
     void dormir();
 
 
@@ -38,9 +48,13 @@ public:
 
     virtual void ejecutarAccion(std::string accion);
     virtual void mostrarAcciones();
-    virtual void comer();
+
     //Retorna el tipo de especie de cada animal con su respectivo pronombre, ej: "La serpiente", "El leon"
     virtual std::string getEspecie();
+
+
+    static std::string tipoComidaAString(TipoAlimento tipo);
+
 };
 
 

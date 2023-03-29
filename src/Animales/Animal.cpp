@@ -4,10 +4,6 @@
 
 #include "Animal.h"
 
-void Animal::comer() {
-    std::cout<<nombre<<" como."<<std::endl;
-}
-
 std::string Animal::getEspecie() {
     return "animal";
 }
@@ -56,5 +52,34 @@ int Animal::getEdad() {
 std::string Animal::getEstadoSalud() {
     return this->salud;
 }
+
+void Animal::comer() {
+    std::cout<<"Soy "<<getNombre()<<", un(a) "<<getEspecie()<<" y estoy comiendo "<<alimento.getNombre()<<std::endl;
+}
+
+std::string Animal::getNombreComida() {
+    return alimento.getNombre();
+}
+
+void Animal::setAlimento(Alimento nuevoAlimento) {
+    this->alimento = nuevoAlimento;
+}
+
+TipoAlimento Animal::getTipoAlimento() {
+    return this->tipoAlimento;
+}
+
+std::string Animal::tipoComidaAString(TipoAlimento tipo) {
+    switch(tipo)
+    {
+        case TipoAlimento::Carnivoro:
+            return "Carnivoro";
+        case TipoAlimento::Herbivoro:
+            return "Herbivoro";
+        case TipoAlimento::Omnivoro:
+            return "Omnivoro";
+    }
+}
+
 
 

@@ -8,16 +8,18 @@
 
 
 class Tigre : public Animal{
+private:
+    const TipoAlimento tipo = TipoAlimento::Carnivoro;
 public:
     Tigre() = default;
-    Tigre(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+    Tigre(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("carne", tipo); }
 
     void correr();
 
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
-    void comer() override;
+
     std::string getEspecie() override;
 };
 

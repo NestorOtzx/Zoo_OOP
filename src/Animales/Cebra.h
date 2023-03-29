@@ -8,16 +8,18 @@
 
 
 class Cebra : public Animal{
+private:
+    const TipoAlimento tipo = TipoAlimento::Herbivoro;
 public:
     Cebra() = default;
-    Cebra(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} {}
+    Cebra(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("hojas", tipo); }
 
     void correr();
 
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;
-    void comer() override;
+
     std::string getEspecie() override;
 };
 

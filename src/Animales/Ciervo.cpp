@@ -4,10 +4,6 @@
 
 #include "Ciervo.h"
 
-void Ciervo::comer() {
-    std::cout<<"Soy un ciervo y como frutas!"<<std::endl;
-}
-
 std::string Ciervo::getEspecie() {
     return "ciervo";
 }

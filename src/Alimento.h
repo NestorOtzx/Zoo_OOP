@@ -7,17 +7,23 @@
 #include <string>
 
 enum TipoAlimento{
-    Carne, plantas
+    Carnivoro, Herbivoro, Omnivoro
 };
 
 
 class Alimento {
 private:
+    std::string nombreAlimento;
     TipoAlimento tipo;
-    int cantidad;
 
 public:
     Alimento() = default;
+    Alimento(std::string nombreComida, TipoAlimento tipo);
+
+    std::string getNombre();
+
+    TipoAlimento getTipo();
+
 };
 
 

@@ -4,10 +4,6 @@
 
 #include "OsoPanda.h"
 
-void OsoPanda::comer() {
-    std::cout<<"soy un oso panda y como bambu"<<std::endl;
-}
-
 std::string OsoPanda::getEspecie() {
     return "oso panda";
 }

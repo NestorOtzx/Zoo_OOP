@@ -4,10 +4,6 @@
 
 #include "Mantarraya.h"
 
-void Mantarraya::comer() {
-    std::cout<<"Soy una mantarraya y como calamares..."<<std::endl;
-}
-
 std::string Mantarraya::getEspecie() {
     return "mantarraya";
 }

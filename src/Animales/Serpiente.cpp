@@ -4,10 +4,6 @@
 
 #include "Serpiente.h"
 
-void Serpiente::comer() {
-    std::cout<<"Soy una serpiente... y como ratones!"<<std::endl;
-}
-
 std::string Serpiente::getEspecie() {
     return "serpiente";
 }

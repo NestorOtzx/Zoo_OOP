@@ -33,6 +33,7 @@ void Zoologico::menu() {
                 interactuarAnimal();
                 break;
             case 5:
+                editarAlimento();
                 break;
             case 6:
                 std::cout<<"Hasta luego"<<std::endl;
@@ -214,9 +215,6 @@ void Zoologico::agregarHabitat() {
     }
 }
 
-void Zoologico::mostrarAnimales() {
-
-}
 
 void Zoologico::interactuarAnimal() {
     std::cout<<"---Seleccionar habitat---"<<std::endl;
@@ -268,7 +266,66 @@ void Zoologico::accionAnimal(Habitat *habitat, int animalID, std::string nombreA
 
 
 void Zoologico::editarAlimento() {
+    std::cout<<"----EDITAR ALIMENTOS------"<<std::endl;
+    std::list<Habitat*>::iterator habitat;
 
+    //Imprimir los nombres de los habitats disponibles en el zoologico junto con un id dado por el contador.
+    int contador = 1;
+    for(habitat = habitats.begin(); habitat != habitats.end(); ++habitat) {
+        std::cout<<"#"<<contador<<": "<<(*habitat)->getNombre()<<std::endl;
+        ++contador;
+    }
+    int opcionHabitat=-1;
+    std::cout<<"Seleccione el habitat donde esta el animal para editar su alimentacion:"<<std::endl;
+    std::cin>>opcionHabitat;
+
+
+    //Imprimir los animales del habitat y posteriormente seleccionar uno de ellos.
+    advance(habitat, opcionHabitat);
+    (*habitat)->mostrarAnimales();
+    std::cout<<"Seleccione el animal para editar su alimentacion:"<<std::endl;
+    int opcionAnimal=0;
+    std::cin>>opcionAnimal;
+
+    //Cambiar alimentacion del animal
+    Animal * animal = (*habitat)->getAnimal(opcionAnimal-1);
+    std::string nombreAlimento;
+    int tipoAlimento = 0;
+
+    std::cout<<"Que comida se le dara a "<<animal->getNombre()<<"?"<<std::endl;
+
+    // Limpiamos el buffer antes de leer la entrada
+    std::cin.clear(); // Limpiamos cualquier indicador de error en cin
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignoramos cualquier entrada hasta el siguiente carácter de nueva línea
+
+    std::getline(std::cin, nombreAlimento);
+
+    std::cout<<"Escoja que tipo de alimento es '"<<nombreAlimento<<"':"<<std::endl;
+    std::cout<<"1. Carnivoro."<<std::endl;
+    std::cout<<"2. Herbivoro."<<std::endl;
+    std::cin>>tipoAlimento;
+
+    Alimento nuevoAlimento;
+    switch (tipoAlimento) {
+        case 1:
+            nuevoAlimento = Alimento(nombreAlimento, TipoAlimento::Carnivoro);
+            break;
+        case 2:
+            nuevoAlimento = Alimento(nombreAlimento, TipoAlimento::Herbivoro);
+            break;
+        default:
+            std::cout<<"Numero no valido"<<std::endl;
+            return;
+    }
+
+    if(animal->getTipoAlimento() == TipoAlimento::Omnivoro || animal->getTipoAlimento() == nuevoAlimento.getTipo())
+    {
+        animal->setAlimento(nuevoAlimento);
+        std::cout<<"Alimento asignado correctamente."<<std::endl;
+    }else{
+        std::cout<<"No puedes alimentar a "<<animal->getNombre()<<" con un alimento "<<Animal::tipoComidaAString(nuevoAlimento.getTipo())<<"."<<std::endl;
+        std::cout<<animal->getNombre()<<" es un animal "<<Animal::tipoComidaAString(animal->getTipoAlimento())<<" y solo puede ser alimentado con ese tipo de comida."<<std::endl;
+    }
 }
 
 void Zoologico::mostrarHabitats() {

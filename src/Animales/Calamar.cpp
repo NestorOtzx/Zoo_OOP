@@ -4,10 +4,6 @@
 
 #include "Calamar.h"
 
-void Calamar::comer() {
-    std::cout<<"Soy un calamar y como crustaceos"<<std::endl;
-}
-
 std::string Calamar::getEspecie() {
     return "calamar";
 }
