@@ -257,6 +257,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj
@@ -405,6 +407,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj
@@ -553,6 +557,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj
@@ -701,6 +707,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj
@@ -849,6 +857,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj
@@ -997,6 +1007,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj
@@ -1145,6 +1157,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj
@@ -1293,6 +1307,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj
@@ -1441,6 +1457,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj
@@ -1589,6 +1607,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj
@@ -1737,7 +1757,9 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Bosque.cpp
@@ -1885,7 +1907,9 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.cpp
@@ -2032,7 +2056,9 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Sabana.cpp
@@ -2180,7 +2206,9 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/SelvaTropical.cpp
@@ -2328,7 +2356,9 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Zoologico.cpp
@@ -2476,7 +2506,9 @@ src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Bosque.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Acuatico.h
@@ -2640,7 +2672,9 @@ src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj
  C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Animales/Animal.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Alimento.h
+ C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Bosque.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Habitat.h
  C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Habitats/Acuatico.h

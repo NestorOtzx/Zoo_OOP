@@ -6,13 +6,13 @@
 #define PROJECT_OOP_ANIMAL_H
 
 #include "Habitats/Habitat.h"
+#include "../Informacion.h"
 #include "../Alimento.h"
 #include <iostream>
-#include <string>
 
 class Habitat; //le decimos al compilador que el tipo "Habitat" existe, para que después pueda ser usado.
 
-class Animal {
+class Animal : public Informacion{
 private:
     std::string nombre;
     Habitat * habitat;
@@ -27,7 +27,7 @@ public:
     Animal(std::string nombre, int edad, std::string salud);
 
     //getters
-    std::string getNombre();
+    std::string getNombre() override;
     std::string getEstadoSalud();
     std::string getNombreComida();
 

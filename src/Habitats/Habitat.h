@@ -7,6 +7,7 @@
 #include <list>
 #include <iostream>
 #include "Animales/Animal.h"
+#include "../Informacion.h"
 
 //Constantes globales
 #define NOMBRE_ACUARIO "Acuario"
@@ -17,7 +18,7 @@
 
 class Animal; //le decimos al compilador que el tipo "Animal" existe, para que después pueda ser usado.
 
-class Habitat {
+class Habitat : public Informacion{
 private:
     std::list<Animal*> animales;
 
@@ -40,7 +41,7 @@ public:
     virtual void mostrarDetalles();
 
     //retorna el nombre del habitat
-    virtual std::string getNombre();
+    std::string getNombre() override;
 
     //retorna la cantidad actual de animales en el habitat
     int getCantidadAnimales();

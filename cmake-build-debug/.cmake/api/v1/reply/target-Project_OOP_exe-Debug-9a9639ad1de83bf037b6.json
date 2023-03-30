@@ -78,8 +78,8 @@
 				26,
 				28,
 				30,
-				32,
-				34
+				33,
+				35
 			]
 		}
 	],
@@ -132,8 +132,8 @@
 				26,
 				28,
 				30,
-				32,
-				34
+				33,
+				35
 			]
 		},
 		{
@@ -156,7 +156,8 @@
 				27,
 				29,
 				31,
-				33
+				32,
+				34
 			]
 		}
 	],
@@ -336,6 +337,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/Habitats/SelvaTropical.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Informacion.h",
 			"sourceGroupIndex" : 1
 		},
 		{

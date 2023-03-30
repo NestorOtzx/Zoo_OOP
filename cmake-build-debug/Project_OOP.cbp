@@ -258,6 +258,10 @@
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
 		</Unit>
+		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Informacion.h">
+			<Option target="Project_OOP_lib"/>
+			<Option target="Project_OOP_exe"/>
+		</Unit>
 		<Unit filename="C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/Zoologico.cpp">
 			<Option target="Project_OOP_lib"/>
 			<Option target="Project_OOP_exe"/>
