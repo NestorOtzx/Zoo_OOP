@@ -47,7 +47,7 @@ public:
     virtual void ejecutarAccion(std::string accion);
     virtual void mostrarAcciones();
 
-    //Retorna el tipo de especie de cada animal con su respectivo pronombre, ej: "La serpiente", "El leon"
+    //Retorna el tipo de especie de cada animal
     virtual std::string getEspecie();
 
     static std::string tipoAlimentoAString(TipoAlimento tipo);

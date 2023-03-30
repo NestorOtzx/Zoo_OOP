@@ -5,7 +5,6 @@
 
 void Zoologico::menu() {
     int opcion =0;
-
     do
     {
         std::cout<<"------Zoologico------"<<std::endl;
@@ -60,7 +59,7 @@ void Zoologico::seleccionarOpcion(int opcion) {
         case 6:
             std::cout<<"Hasta luego"<<std::endl;
             break;
-        default:
+        default: //Lanzar excepcion de numero o caracter no valido.
             if (std::cin.fail())
             {
                 limpiarBuffer();
@@ -171,6 +170,7 @@ void Zoologico::agregarAnimal() {
     std::cout<<"Donde vivira el animal: "<<animal->getEspecie() <<"?"<<std::endl;
     std::cin>>opcionHabitat;
     limpiarBuffer();
+
 
     if (std::cin.fail()) {
         limpiarBuffer();
@@ -468,7 +468,7 @@ void Zoologico::interactuarAnimal() {
 
 
 void Zoologico::accionAnimal(Habitat *habitat, int animalID, std::string nombreAccion) {
-    //Convertir cada caracter a minúscula para evitar errores
+    //Convertir cada caracter a minúscula para evitar que la comparacion dependa de las mayusculas o minusculas.
     for (char & c : nombreAccion) {
         c = std::tolower(c);
     }
@@ -535,6 +535,7 @@ void Zoologico::editarAlimento() {
     std::cout<<"1. Carnivoro."<<std::endl;
     std::cout<<"2. Herbivoro."<<std::endl;
     std::cin>>tipoAlimento;
+
     if (std::cin.fail()) {
         limpiarBuffer();
         throw std::invalid_argument("Debe usar numeros para seleccionar al animal.");
@@ -583,7 +584,8 @@ void Zoologico::mostrarHabitats() {
     }
 }
 
-//Constructor con diferentes configuraciones, cada una con propiedades diferentes, leer el readme.
+/*Constructor con diferentes configuraciones, cada una con propiedades diferentes.
+ * Esto se hace para evitar tener que llenar el zoologico manualmente cada vez que se quiera testear algo. */
 Zoologico::Zoologico(int id) {
     Habitat * bosque;
     Habitat * acuario;

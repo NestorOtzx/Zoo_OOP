@@ -52,12 +52,13 @@ public:
 
     //muestra al usuario las acciones que puede realizar un animal, el usuario podrá escoger cual hacer.
     void interactuarAnimal();
+
     //ejecuta una accion especifica en un animal especifico
     void accionAnimal(Habitat *habitat, int animalID, std::string nombreAccion);
 
     void editarAlimento();
 
-    //Limpia todos los datos del cin para evitar errores.
+    //Limpia todos los datos del cin para evitar errores de consola.
     void limpiarBuffer();
 
     //Mostrar los nombres de todos los habitats disponibles en el zoologico.
