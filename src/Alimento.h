@@ -21,6 +21,9 @@ public:
     Alimento() = default;
     Alimento(std::string nombreComida, TipoAlimento tipo);
 
+    void setNombre(std::string nombre);
+    void setTipo(TipoAlimento tipo);
+
     //retorna el nombre de la comida
     std::string getNombre() override;
     //retorna el tipo de comida, carnivoro o herbivoro

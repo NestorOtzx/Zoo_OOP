@@ -57,7 +57,10 @@ public:
     //ejecuta una accion especifica en un animal especifico
     void accionAnimal(Habitat *habitat, int animalID, std::string nombreAccion);
 
+    //Alimentos
     void editarAlimento();
+    void mostrarAlimentos();
+
 
     //Limpia todos los datos del cin para evitar errores de consola.
     void limpiarBuffer();

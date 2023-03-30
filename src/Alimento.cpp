@@ -16,3 +16,11 @@ TipoAlimento Alimento::getTipo() {
 std::string Alimento::getNombre() {
     return nombreAlimento;
 }
+
+void Alimento::setNombre(std::string nombre) {
+    this->nombreAlimento = nombre;
+}
+
+void Alimento::setTipo(TipoAlimento tipo) {
+    this->tipo = tipo;
+}

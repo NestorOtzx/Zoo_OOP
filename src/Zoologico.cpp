@@ -13,7 +13,8 @@ void Zoologico::menu() {
         std::cout<<"3. Mostrar todos los habitats"<<std::endl;
         std::cout<<"4. Interactuar con animal"<<std::endl;
         std::cout<<"5. Editar alimentos"<<std::endl;
-        std::cout<<"6. Salir"<<std::endl;
+        std::cout<<"6. Mostrar alimentos disponibles"<<std::endl;
+        std::cout<<"7. Salir"<<std::endl;
 
         std::cin>>opcion;
 
@@ -35,7 +36,7 @@ void Zoologico::menu() {
         }
 
 
-    }while(opcion != 6);
+    }while(opcion != 7);
 }
 
 void Zoologico::seleccionarOpcion(int opcion) {
@@ -57,6 +58,9 @@ void Zoologico::seleccionarOpcion(int opcion) {
             editarAlimento();
             break;
         case 6:
+            mostrarAlimentos();
+            break;
+        case 7:
             std::cout<<"Hasta luego"<<std::endl;
             break;
         default: //Lanzar excepcion de numero o caracter no valido.
@@ -67,7 +71,6 @@ void Zoologico::seleccionarOpcion(int opcion) {
             }else{
                 throw std::invalid_argument("Esa opcion no existe en el menu.");
             }
-            break;
     }
 
 }
@@ -477,7 +480,91 @@ void Zoologico::accionAnimal(Habitat *habitat, int animalID, std::string nombreA
 
 
 void Zoologico::editarAlimento() {
+    std::cout<<"---Editar alimentos---"<<std::endl;
+    std::cout<<"1# Agregar nuevo alimento"<<std::endl;
+    std::cout<<"2# Modificar alimento existente"<<std::endl;
 
+    int opcion;
+    int alimentoAEditar;
+    std::string nombreAlimento;
+    TipoAlimento tipo;
+
+    std::cin>>opcion;
+
+    if (std::cin.fail()) {
+        limpiarBuffer();
+        throw std::invalid_argument("Debe usar numeros para seleccionar la opcion.");
+    }
+    if (opcion < 1 || opcion > 2)
+    {
+        throw std::invalid_argument("Esa opcion no existe.");
+    }
+
+    Alimento * alimento;
+    if (opcion == 2)
+    {
+        mostrarAlimentos();
+        std::cout<<"Seleccione el alimento que desea editar: "<<std::endl;
+        std::cin>>alimentoAEditar;
+
+        if (std::cin.fail()) {
+            limpiarBuffer();
+            throw std::invalid_argument("Debe usar numeros para seleccionar el alimento.");
+        }
+        if (alimentoAEditar < 1 || alimentoAEditar > alimentos.size())
+        {
+            throw std::invalid_argument("Esa alimento no existe en el zoologico.");
+        }
+    }
+
+    std::cout<<"Ingrese el nombre del alimento"<<std::endl;
+    limpiarBuffer();
+    std::getline(std::cin, nombreAlimento);
+
+
+    std::cout<<"Que tipo de alimento es "<<nombreAlimento<<"?: "<<std::endl;
+    std::cout<<"#1 Herbivoro"<<std::endl;
+    std::cout<<"#2 Carnivoro"<<std::endl;
+    int idTipoAlimento;
+    std::cin>>idTipoAlimento;
+
+    if (std::cin.fail()) {
+        limpiarBuffer();
+        throw std::invalid_argument("Debe usar numeros para seleccionar la opcion.");
+    }
+    if (idTipoAlimento < 1 || idTipoAlimento > 2)
+    {
+        throw std::invalid_argument("Esa opcion no existe.");
+    }
+
+    switch (idTipoAlimento) {
+        case 1:
+            tipo = Herbivoro;
+            break;
+        case 2:
+            tipo = Carnivoro;
+            break;
+        default:
+            //exception
+            break;
+    }
+
+
+    if (opcion == 1)
+    {
+       alimento = new Alimento(nombreAlimento, tipo);
+       alimentos.push_back(alimento);
+
+    }else{
+        auto alimentoEditado = alimentos.begin();
+
+        std::advance(alimentoEditado, alimentoAEditar-1);
+
+        alimento = *alimentoEditado;
+
+        alimento->setNombre(nombreAlimento);
+        alimento->setTipo(tipo);
+    }
 }
 
 void Zoologico::mostrarHabitats() {
@@ -505,6 +592,12 @@ Zoologico::Zoologico(int id) {
     Habitat * acuario;
     Habitat * sabana;
     Habitat * selva;
+
+
+    alimentos.push_back(new Alimento("carne", TipoAlimento::Carnivoro));
+    alimentos.push_back(new Alimento("hierva", TipoAlimento::Herbivoro));
+    alimentos.push_back(new Alimento("crustaceos", TipoAlimento::Carnivoro));
+    alimentos.push_back(new Alimento("frutas", TipoAlimento::Herbivoro));
 
     switch (id) {
         case 1: //4 habitats vacios
@@ -576,6 +669,16 @@ void Zoologico::imprimirHabitats() {
     int contador = 1;
     for(habitat = habitats.begin(); habitat != habitats.end(); ++habitat) {
         std::cout<<"#"<<contador<<": "<<(*habitat)->getNombre()<<std::endl;
+        ++contador;
+    }
+}
+
+void Zoologico::mostrarAlimentos() {
+    std::cout<<"----Alimentos----"<<std::endl;
+    auto alimento = alimentos.begin();
+    int contador = 1;
+    for(alimento = alimentos.begin(); alimento != alimentos.end(); ++alimento) {
+        std::cout << "#" << contador << ": " << (*alimento)->getNombre() << std::endl;
         ++contador;
     }
 }
