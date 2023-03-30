@@ -1,4 +1,8 @@
 # Zoológico
+
+#### Nota:
+Esto es una prueba para comprobar que la nueva rama esté funcionando.
+
 ## Presentación general
 
 Este proyecto simula un zoológico en el que se pueden realizar diferentes acciones e interacciones con los animales que habitan en él.
