@@ -9,13 +9,14 @@ void Habitat::mostrarAnimales() {
 
 
     //Muestra en forma de tabla la informacion de cada animal en el habitat
-    std::cout<<" ID | NOMBRE | EDAD | ESPECIE | ALIMENTACION | ESTADO DE SALUD | "<<std::endl;
+    std::cout<<" ID | NOMBRE | EDAD | ESPECIE | ALIMENTACION | ESTADO DE SALUD | Horas que debe domir "<<std::endl;
     int contador = 1;
     for(animal; animal != animales.end(); ++animal)
     {
         std::cout << "#" << contador << ": | " << (*animal)->getNombre() << " | "
                   << (*animal)->getEdad() << " anios | " << (*animal)->getEspecie()
-                  << " | " << Animal::tipoAlimentoAString((*animal)->getTipoAlimento()) << " | " << (*animal)->getEstadoSalud() << " |" << std::endl;
+                  << " | " << Animal::tipoAlimentoAString((*animal)->getTipoAlimento()) << " | " << (*animal)->getEstadoSalud()
+                  << " | " << (*animal)->getHorasDormir()<<" horas" << std::endl;
         ++contador;
     }
 }

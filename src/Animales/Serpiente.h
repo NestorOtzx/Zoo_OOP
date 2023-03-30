@@ -11,7 +11,7 @@ class Serpiente : public Animal{
 public:
     Serpiente() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Serpiente(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Carnivoro; }
+    Serpiente(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Carnivoro; horasDormir = 0; }
 
     //Accion extra
     void esconderse();

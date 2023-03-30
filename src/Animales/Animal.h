@@ -18,9 +18,11 @@ private:
     Habitat * habitat;
     int edad;
     std::string salud;
+    bool jugoEnElDia;
 
 protected:
     TipoAlimento tipoAlimento;
+    int horasDormir;
 public:
     Animal() = default;
     Animal(std::string nombre, int edad, std::string salud);
@@ -28,14 +30,17 @@ public:
     //getters
     std::string getNombre() override;
     std::string getEstadoSalud();
+    int getHorasDormir();
 
     int getEdad();
     TipoAlimento getTipoAlimento();
 
 
     //Acciones
-    void comer();
-    void dormir();
+    void comer(Alimento * comida);
+    void dormir(int horas);
+
+    void jugar();
 
     //si el acuario recibido es habitable por este animal, esta funcion retornara verdadero.
     virtual bool puedeHabitar(Habitat *habitat);

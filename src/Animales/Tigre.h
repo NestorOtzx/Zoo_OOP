@@ -11,7 +11,7 @@ class Tigre : public Animal{
 public:
     Tigre() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Tigre(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Carnivoro; }
+    Tigre(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Carnivoro; horasDormir = 13; }
 
     //Accion extra
     void correr();

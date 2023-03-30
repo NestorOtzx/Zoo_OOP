@@ -475,7 +475,55 @@ void Zoologico::accionAnimal(Habitat *habitat, int animalID, std::string nombreA
     for (char & c : nombreAccion) {
         c = std::tolower(c);
     }
-    habitat->getAnimal(animalID)->ejecutarAccion(nombreAccion);
+
+    if (nombreAccion == "comer")
+    {
+        int alimentoID;
+        mostrarAlimentos();
+        std::cout<<"Seleccione el alimento que comera el/la "<<habitat->getAnimal(animalID)->getEspecie()<<":"<<std::endl;
+        std::cin>>alimentoID;
+
+        if (std::cin.fail()) {
+            limpiarBuffer();
+            throw std::invalid_argument("Debe usar numeros para seleccionar el alimento.");
+        }
+        if (alimentoID > alimentos.size() || alimentoID < 1)
+        {
+            throw std::invalid_argument("Ese alimento no existe.");
+        }
+
+        auto alimentoSeleccionado = alimentos.begin();
+        std::advance(alimentoSeleccionado, alimentoID-1);
+
+        habitat->getAnimal(animalID)->comer(*alimentoSeleccionado);
+
+        return;
+    }
+    if(nombreAccion == "dormir")
+    {
+        int horasDormir;
+        std::cout<<"Seleccione cuanto tiempo dormira el/la "<<habitat->getAnimal(animalID)->getEspecie()<<":"<<std::endl;
+        std::cin >> horasDormir;
+
+        if (std::cin.fail()) {
+            limpiarBuffer();
+            throw std::invalid_argument("Debe usar numeros enteros para indicar cuanto tiempo va a dormir el animal");
+        }
+        if (horasDormir < 1)
+        {
+            throw std::invalid_argument("Las horas no pueden menores que 1");
+        }
+
+        habitat->getAnimal(animalID)->dormir(horasDormir);
+        return;
+    }
+
+
+     //cualquier otra accion
+     habitat->getAnimal(animalID)->ejecutarAccion(nombreAccion);
+
+
+
 }
 
 

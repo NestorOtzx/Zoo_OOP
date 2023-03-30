@@ -11,7 +11,7 @@ class OsoPanda : public Animal{
 public:
     OsoPanda() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    OsoPanda(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Omnivoro; }
+    OsoPanda(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Omnivoro; horasDormir = 12; }
 
     //Accion extra
     void dormirMas();

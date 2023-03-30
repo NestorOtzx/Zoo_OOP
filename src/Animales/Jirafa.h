@@ -10,7 +10,7 @@ class Jirafa: public Animal {
 public:
     Jirafa() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Jirafa(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Herbivoro; }
+    Jirafa(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Herbivoro; horasDormir = 4; }
 
     //Accion extra
     void alcanzarComida();
