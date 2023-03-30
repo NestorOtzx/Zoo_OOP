@@ -20,10 +20,10 @@ public:
     Alimento() = default;
     Alimento(std::string nombreComida, TipoAlimento tipo);
 
+    //retorna el nombre de la comida
     std::string getNombre();
-
+    //retorna el tipo de comida, carnivoro o herbivoro
     TipoAlimento getTipo();
-
 };
 
 

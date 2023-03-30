@@ -14,11 +14,12 @@ void Serpiente::mostrarAcciones() {
 }
 
 void Serpiente::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "esconderse")
     {
         esconderse();
+        return;
     }
+    Animal::ejecutarAccion(accion);
 }
 
 void Serpiente::esconderse() {

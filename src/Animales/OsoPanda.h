@@ -8,14 +8,15 @@
 
 
 class OsoPanda : public Animal{
-private:
-    const TipoAlimento tipo = TipoAlimento::Omnivoro;
 public:
     OsoPanda() = default;
-    OsoPanda(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("bambu", tipo); }
+    //Usa el constructor original y asigna el alimento por defecto del animal
+    OsoPanda(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("bambu", tipoAlimento); tipoAlimento = Omnivoro; }
 
+    //Accion extra
     void dormirMas();
 
+    //Overrides
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;

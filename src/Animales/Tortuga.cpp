@@ -14,11 +14,12 @@ void Tortuga::mostrarAcciones() {
 }
 
 void Tortuga::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "esconderse")
     {
         esconderseEnCaparazon();
+        return;
     }
+    Animal::ejecutarAccion(accion);
 }
 
 void Tortuga::esconderseEnCaparazon() {

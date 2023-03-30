@@ -8,15 +8,15 @@
 
 
 class Ciervo : public Animal{
-private:
-    const TipoAlimento tipo = TipoAlimento::Herbivoro;
 public:
     Ciervo() = default;
-    Ciervo(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("hojas", tipo); }
+    //Usa el constructor original y asigna el alimento por defecto del animal
+    Ciervo(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("hojas", tipoAlimento);  tipoAlimento = Herbivoro; }
 
+    //Accion extra
     void saltar();
 
-
+    //Overrides
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;

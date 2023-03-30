@@ -14,11 +14,14 @@ void OsoPanda::mostrarAcciones() {
 }
 
 void OsoPanda::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
+
     if (accion == "dormir mas")
     {
         dormirMas();
+        return;
     }
+    Animal::ejecutarAccion(accion);
+
 }
 
 void OsoPanda::dormirMas() {

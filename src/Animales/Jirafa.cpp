@@ -14,11 +14,13 @@ void Jirafa::mostrarAcciones() {
 }
 
 void Jirafa::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "alcanzar comida")
     {
         alcanzarComida();
+        return;
     }
+    Animal::ejecutarAccion(accion);
+
 }
 
 void Jirafa::alcanzarComida() {

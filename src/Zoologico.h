@@ -38,13 +38,16 @@ public:
     //Zoologico vacio
     Zoologico() = default;
 
-    //Constructor que permite escoger una configuracion por defecto para el zoologico por una id
+    //Constructor que permite escoger una configuracion por defecto para el zoologico por una id - Leer el readme
     Zoologico(int id);
 
-
+    //Menu
     void menu();
+    void seleccionarOpcion(int opcion);
     void agregarAnimal();
     void agregarHabitat();
+
+    //muestra los habitats actuales del zoologico, sus caracteristicas y los animales que contiene.
     void mostrarHabitats();
 
     //muestra al usuario las acciones que puede realizar un animal, el usuario podrá escoger cual hacer.
@@ -53,6 +56,19 @@ public:
     void accionAnimal(Habitat *habitat, int animalID, std::string nombreAccion);
 
     void editarAlimento();
+
+    //Limpia todos los datos del cin para evitar errores.
+    void limpiarBuffer();
+
+    //Mostrar los nombres de todos los habitats disponibles en el zoologico.
+    void imprimirHabitats();
+
+    //Crear habitats especificos
+    Habitat * crearBosque();
+    Habitat * crearSabana();
+    Habitat * crearAcuatico();
+    Habitat * crearSelva();
+
 };
 
 

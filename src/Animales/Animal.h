@@ -14,7 +14,6 @@ class Habitat; //le decimos al compilador que el tipo "Habitat" existe, para que
 
 class Animal {
 private:
-    const TipoAlimento tipoAlimento = TipoAlimento::Herbivoro;
     std::string nombre;
     Habitat * habitat;
     int edad;
@@ -22,7 +21,7 @@ private:
 
 protected:
     Alimento alimento;
-
+    TipoAlimento tipoAlimento;
 public:
     Animal() = default;
     Animal(std::string nombre, int edad, std::string salud);
@@ -42,7 +41,6 @@ public:
     void comer();
     void dormir();
 
-
     //si el acuario recibido es habitable por este animal, esta funcion retornara verdadero.
     virtual bool puedeHabitar(Habitat *habitat);
 
@@ -52,9 +50,7 @@ public:
     //Retorna el tipo de especie de cada animal con su respectivo pronombre, ej: "La serpiente", "El leon"
     virtual std::string getEspecie();
 
-
-    static std::string tipoComidaAString(TipoAlimento tipo);
-
+    static std::string tipoAlimentoAString(TipoAlimento tipo);
 };
 
 

@@ -7,13 +7,15 @@
 void Habitat::mostrarAnimales() {
     std::list<Animal*>::iterator animal = animales.begin();
 
+
+    //Muestra en forma de tabla la informacion de cada animal en el habitat
     std::cout<<" ID | NOMBRE | EDAD | ESPECIE | ALIMENTACION | ESTADO DE SALUD | "<<std::endl;
     int contador = 1;
     for(animal; animal != animales.end(); ++animal)
     {
         std::cout << "#" << contador << ": | " << (*animal)->getNombre() << " | "
                   << (*animal)->getEdad() << " anios | " << (*animal)->getEspecie()
-                  << " | " << (*animal)->getNombreComida() << " | " << (*animal)->getEstadoSalud() << " |" << std::endl;
+                  << " | " << Animal::tipoAlimentoAString((*animal)->getTipoAlimento()) << " | " << (*animal)->getEstadoSalud() << " |" << std::endl;
         ++contador;
     }
 }
@@ -41,8 +43,18 @@ std::string Habitat::getNombre() {
 
 Animal *Habitat::getAnimal(int id) {
     std::list<Animal*>::iterator animal;
+
+    if (id < 0 || id >= animales.size())
+    {
+        throw std::out_of_range("Ese animal no esta en el habitat");
+    }
+
     animal = animales.begin();
     std::advance(animal, id);
     return (*animal);
+}
+
+int Habitat::getCantidadAnimales() {
+    return animales.size();
 }
 

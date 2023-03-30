@@ -14,11 +14,12 @@ void Tigre::mostrarAcciones() {
 }
 
 void Tigre::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "correr")
     {
         correr();
+        return;
     }
+    Animal::ejecutarAccion(accion);
 }
 
 void Tigre::correr() {

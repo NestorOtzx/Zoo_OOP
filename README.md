@@ -28,7 +28,7 @@ int main() {
 
 Lógicamente hay animales que no pueden habitar en ciertos habitats, por ejemplo, una jirafa no sobreviviría mucho en un acuario, ni una mantarraya sobreviviría mucho en un bosque.
 
-El programa tiene un sistema que evita que este tipo de situaciones ocurran.
+El programa tiene un sistema que evita que este tipoAlimento de situaciones ocurran.
 
 Cada animal tiene sus propias restricciones en la función puedeHabitar() la cual recibe el habitat que se quiere comprobar si es habitable por la especie o no.
 

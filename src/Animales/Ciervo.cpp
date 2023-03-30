@@ -14,11 +14,12 @@ void Ciervo::mostrarAcciones() {
 }
 
 void Ciervo::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "saltar")
     {
         saltar();
+        return;
     }
+    Animal::ejecutarAccion(accion);
 
 }
 

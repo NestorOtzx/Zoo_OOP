@@ -8,14 +8,15 @@
 
 
 class Serpiente : public Animal{
-private:
-    const TipoAlimento tipo = TipoAlimento::Carnivoro;
 public:
     Serpiente() = default;
-    Serpiente(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("ratones", tipo); }
+    //Usa el constructor original y asigna el alimento por defecto del animal
+    Serpiente(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("ratones", tipoAlimento); tipoAlimento = Carnivoro; }
 
+    //Accion extra
     void esconderse();
 
+    //Overrides
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;

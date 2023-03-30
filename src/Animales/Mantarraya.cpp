@@ -14,11 +14,13 @@ void Mantarraya::mostrarAcciones() {
 }
 
 void Mantarraya::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "nadar")
     {
         nadar();
+        return;
     }
+    Animal::ejecutarAccion(accion);
+
 }
 
 void Mantarraya::nadar() {

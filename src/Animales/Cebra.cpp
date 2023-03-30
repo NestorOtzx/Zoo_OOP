@@ -14,11 +14,13 @@ void Cebra::mostrarAcciones() {
 }
 
 void Cebra::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "correr")
     {
         correr();
+        return;
     }
+    Animal::ejecutarAccion(accion);
+
 }
 
 void Cebra::correr() {

@@ -14,11 +14,12 @@ void Calamar::mostrarAcciones() {
 }
 
 void Calamar::ejecutarAccion(std::string accion) {
-    Animal::ejecutarAccion(accion);
     if (accion == "tirar tinta")
     {
         arrojarTinta();
+        return;
     }
+    Animal::ejecutarAccion(accion);
 }
 
 void Calamar::arrojarTinta() {

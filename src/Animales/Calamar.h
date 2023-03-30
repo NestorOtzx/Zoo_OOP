@@ -10,14 +10,17 @@
 
 
 class Calamar : public Animal{
-private:
-    const TipoAlimento tipo = TipoAlimento::Carnivoro;
+
 public:
     Calamar() = default;
-    Calamar(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("peces", tipo); }
 
+    //Usa el constructor original y asigna el alimento por defecto del animal
+    Calamar(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("peces", tipoAlimento); tipoAlimento = Carnivoro; }
+
+    //Accion extra
     void arrojarTinta();
 
+    //Overrides
     bool puedeHabitar(Habitat * habitat) override;
     void ejecutarAccion(std::string accion) override;
     void mostrarAcciones() override;

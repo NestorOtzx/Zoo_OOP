@@ -26,7 +26,11 @@ protected:
 
 public:
     Habitat() = default;
+
+    //Muestra en forma de tabla la informacion de cada animal en el habitat
     void mostrarAnimales();
+
+    //Agrega un animal siempre y cuando el habitat sea adecuado para el animal
     void agregarAnimal(Animal * animal);
 
     //Obtener un animal por su id en la lista;
@@ -37,6 +41,9 @@ public:
 
     //retorna el nombre del habitat
     virtual std::string getNombre();
+
+    //retorna la cantidad actual de animales en el habitat
+    int getCantidadAnimales();
 };
 
 

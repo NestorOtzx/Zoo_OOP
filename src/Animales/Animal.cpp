@@ -26,7 +26,10 @@ void Animal::ejecutarAccion(std::string accion) {
     if (accion == "dormir")
     {
         dormir();
+        return;
     }
+
+    throw std::invalid_argument("Esa accion no existe");
 }
 
 void Animal::mostrarAcciones() {
@@ -69,7 +72,7 @@ TipoAlimento Animal::getTipoAlimento() {
     return this->tipoAlimento;
 }
 
-std::string Animal::tipoComidaAString(TipoAlimento tipo) {
+std::string Animal::tipoAlimentoAString(TipoAlimento tipo) {
     switch(tipo)
     {
         case TipoAlimento::Carnivoro:
