@@ -20,7 +20,6 @@ private:
     std::string salud;
 
 protected:
-    Alimento alimento;
     TipoAlimento tipoAlimento;
 public:
     Animal() = default;
@@ -29,13 +28,10 @@ public:
     //getters
     std::string getNombre() override;
     std::string getEstadoSalud();
-    std::string getNombreComida();
 
     int getEdad();
     TipoAlimento getTipoAlimento();
 
-    //setters
-    void setAlimento(Alimento nuevoAlimento);
 
     //Acciones
     void comer();

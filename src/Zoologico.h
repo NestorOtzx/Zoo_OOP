@@ -33,6 +33,7 @@
 class Zoologico {
 private:
     std::list<Habitat*> habitats;
+    std::list<Alimento*> alimentos;
 
 public:
     //Zoologico vacio

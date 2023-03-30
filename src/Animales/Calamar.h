@@ -15,7 +15,7 @@ public:
     Calamar() = default;
 
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Calamar(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("peces", tipoAlimento); tipoAlimento = Carnivoro; }
+    Calamar(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Carnivoro; }
 
     //Accion extra
     void arrojarTinta();

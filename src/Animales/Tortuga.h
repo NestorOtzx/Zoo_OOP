@@ -12,7 +12,7 @@ class Tortuga : public Animal{
 public:
     Tortuga() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Tortuga(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("lechuga", tipoAlimento);  tipoAlimento = Carnivoro;}
+    Tortuga(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Carnivoro;}
 
     //Accion extra
     void esconderseEnCaparazon();

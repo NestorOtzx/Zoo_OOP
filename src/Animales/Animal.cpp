@@ -57,15 +57,7 @@ std::string Animal::getEstadoSalud() {
 }
 
 void Animal::comer() {
-    std::cout<<"Soy "<<getNombre()<<", un(a) "<<getEspecie()<<" y estoy comiendo "<<alimento.getNombre()<<std::endl;
-}
-
-std::string Animal::getNombreComida() {
-    return alimento.getNombre();
-}
-
-void Animal::setAlimento(Alimento nuevoAlimento) {
-    this->alimento = nuevoAlimento;
+    std::cout<<"Soy "<<getNombre()<<", un(a) "<<getEspecie()<<" y estoy comiendo "<<"alimento"<<std::endl;
 }
 
 TipoAlimento Animal::getTipoAlimento() {

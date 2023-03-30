@@ -11,7 +11,7 @@ class Ciervo : public Animal{
 public:
     Ciervo() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Ciervo(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("hojas", tipoAlimento);  tipoAlimento = Herbivoro; }
+    Ciervo(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Herbivoro; }
 
     //Accion extra
     void saltar();

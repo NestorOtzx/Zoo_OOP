@@ -10,7 +10,7 @@ class Mantarraya : public Animal {
 public:
     Mantarraya() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Mantarraya(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("peces", tipoAlimento);  tipoAlimento = Omnivoro; }
+    Mantarraya(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Omnivoro; }
 
     //Accion extra
     void nadar();

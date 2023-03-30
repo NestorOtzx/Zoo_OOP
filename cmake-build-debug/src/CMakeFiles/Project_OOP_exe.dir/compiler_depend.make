@@ -109,7 +109,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: C:/Users/itsre/Desktop/Tare
   C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
-  C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
@@ -257,7 +258,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: C:/Users/itsre/Deskt
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Calamar.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Calamar.h \
@@ -406,7 +408,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: C:/Users/itsre/Desk
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Cebra.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Cebra.h \
@@ -555,7 +558,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: C:/Users/itsre/Deskto
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Ciervo.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Ciervo.h \
@@ -704,7 +708,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: C:/Users/itsre/Deskt
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Jirafa.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Jirafa.h \
@@ -853,7 +858,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: C:/Users/itsre/Deskt
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Mantarraya.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Mantarraya.h \
@@ -1002,7 +1008,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: C:/Users/itsre/D
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/OsoPanda.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/OsoPanda.h \
@@ -1151,7 +1158,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: C:/Users/itsre/Des
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Serpiente.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Serpiente.h \
@@ -1300,7 +1308,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: C:/Users/itsre/De
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Tigre.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Tigre.h \
@@ -1449,7 +1458,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: C:/Users/itsre/Deskto
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Tortuga.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Tortuga.h \
@@ -1598,7 +1608,8 @@ src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: C:/Users/itsre/Desk
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
-  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Acuatico.cpp \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Acuatico.h \
@@ -1747,6 +1758,7 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj: C:/Users/itsre/Des
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Bosque.cpp \
@@ -1896,6 +1908,7 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj: C:/Users/itsre/Deskt
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.cpp \
@@ -2044,6 +2057,7 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj: C:/Users/itsre/Desk
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Sabana.cpp \
@@ -2193,6 +2207,7 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj: C:/Users/itsre/Deskt
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/SelvaTropical.cpp \
@@ -2342,6 +2357,7 @@ src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj: C:/Users/itsr
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h
 
 src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Zoologico.cpp \
@@ -2491,6 +2507,7 @@ src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: C:/Users/itsre/Desktop/Tar
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Bosque.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
@@ -2656,6 +2673,7 @@ src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: C:/Users/itsre/Desktop/Tareas\ 
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.h \
+  C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Bosque.h \
   C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.h \
@@ -2917,6 +2935,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc:
 
+C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h:
+
 C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Bosque.cpp:
 
 C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.h:
@@ -2978,8 +2998,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc:
-
-C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Informacion.h:
 
 C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Calamar.cpp:
 

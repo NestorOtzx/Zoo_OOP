@@ -11,7 +11,7 @@ class Cebra : public Animal{
 public:
     Cebra() = default;
     //Usa el constructor original y asigna el alimento por defecto del animal
-    Cebra(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { alimento = Alimento("hojas", tipoAlimento); tipoAlimento = Herbivoro; }
+    Cebra(std::string nombre, int edad, std::string salud) : Animal{nombre, edad, salud} { tipoAlimento = Herbivoro; }
 
     //Accion extra
     void correr();
