@@ -31,11 +31,11 @@ Una vez en el proyecto, para asegurarse que los CMake están asignados correctam
 
 Herramientas > CMake > Recargar Proyecto de CMake como se muestra en la imagen.
 
-![img_13.png](img_13.png)
+![img_13.png](Imagenes/img_13.png)
 
 Una vez hecho esto, las configuraciones de ejecución ya estarían disponibles y se podría ejecutar el programa.
 
-![img_14.png](img_14.png)
+![img_14.png](Imagenes/img_14.png)
 
 ## Ejecución
 
@@ -67,7 +67,7 @@ int main() {
 
 Las acciones que se pueden hacer en el zoológico aparecen en el menú principal:
 
-![img_2.png](img_2.png)
+![img_2.png](Imagenes/img_2.png)
 
 A continuación se muestra como funciona cada una de las opciones anteriores:
 
@@ -75,16 +75,16 @@ A continuación se muestra como funciona cada una de las opciones anteriores:
 
 Lo primero que se debe hacer es elegir qué animal se quiere agregar al zoológico:
 
-![img_1.png](img_1.png)
+![img_1.png](Imagenes/img_1.png)
 
 Posteriormente, se le pedirá al usuario la información sobre este animal:
 
-![img.png](img.png)
+![img.png](Imagenes/img.png)
 
 
 Finalmente, se le pregunta al usuario en que hábitat desea poner al animal:
 
-![img_3.png](img_3.png)
+![img_3.png](Imagenes/img_3.png)
 
 Tenga en cuenta que no puede agregar cualquier animal a cualquier hábitat.
 
@@ -125,11 +125,11 @@ En este caso, la función solo retornará verdadero cuando el hábitat recibido 
 
 Hay 4 tipos de hábitats que el usuario puede agregar al zoológico, al momento de agregar uno nuevo se le pregunta al usuario qué tipo de hábitat desea agregar:
 
-![img_4.png](img_4.png)
+![img_4.png](Imagenes/img_4.png)
 
 Después de escoger el tipo de hábitat, se le pedirá al usuario que escoja que características tendrá el hábitat, todos los tipos de hábitats tienen características diferentes para configurar.
 
-![img_5.png](img_5.png)
+![img_5.png](Imagenes/img_5.png)
 
 Una vez ingresada la información, el nuevo hábitat será agregado al zoológico automáticamente.
 
@@ -137,21 +137,21 @@ Una vez ingresada la información, el nuevo hábitat será agregado al zoológic
 
 Esta opción mostrará toda la información de todos los hábitat, sus características y los animales que contiene:
 
-![img_6.png](img_6.png)
+![img_6.png](Imagenes/img_6.png)
 
 ## Interactuar con los animales
 
 Se puede interactuar con cada animal del zoológico y pedirle que ejecute una acción, cada animal puede ejecutar acciones diferentes acordes a su especie.
 
-![img_7.png](img_7.png)
+![img_7.png](Imagenes/img_7.png)
 
 Primero se le preguntará al usuario en dónde está el animal con el que se quiere interactuar, en este caso está en el hábitat número 3 que es una sabana.
 
-![img_8.png](img_8.png)
+![img_8.png](Imagenes/img_8.png)
 
 Luego se le pide al usuario que elija al animal con el que quiere interactuar, en este caso se eligió a alex, un pequeño ciervo de un año de edad.
 
-![img_9.png](img_9.png)
+![img_9.png](Imagenes/img_9.png)
 
 Luego se le mostrará al usuario las acciones que le puede pedir a Alex que haga, el usuario deberá escribir que acción deberá hacer Alex, en este caso se le dijo a Alex que salte.
 
@@ -159,15 +159,15 @@ Luego se le mostrará al usuario las acciones que le puede pedir a Alex que haga
 
 La alimentación de los animales puede ser editada por el usuario, cada animal se alimenta de diferentes tipos de comida.
 
-![img_10.png](img_10.png)
+![img_10.png](Imagenes/img_10.png)
 
 Para editar la alimentación de un animal se le preguntará dónde está el animal al que se le quiere modificar la alimentación.
 
-![img_11.png](img_11.png)
+![img_11.png](Imagenes/img_11.png)
 
 Se le preguntará al usuario como se llama la comida que se le dará al animal a partir de ahora.
 
-![img_12.png](img_12.png)
+![img_12.png](Imagenes/img_12.png)
 
 El usuario deberá decir que tipo de comida es la que se le dará al animal.
 
