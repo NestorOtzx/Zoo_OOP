@@ -57,14 +57,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Project_OOP_exe::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Project_OOP_exe-Debug-9a9639ad1de83bf037b6.json",
+					"jsonFile" : "target-Project_OOP_exe-Debug-1606a7b35f7ca9782522.json",
 					"name" : "Project_OOP_exe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Project_OOP_lib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Project_OOP_lib-Debug-6b7b56015eeab7f67762.json",
+					"jsonFile" : "target-Project_OOP_lib-Debug-a884f2b4b60ce4538704.json",
 					"name" : "Project_OOP_lib",
 					"projectIndex" : 0
 				}
@@ -74,8 +74,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/cmake-build-debug",
-		"source" : "C:/Users/itsre/Desktop/Tareas CPP/Project_OOP"
+		"build" : "C:/Users/itsre/Desktop/Tareas CPP/Zoo_OOP/cmake-build-debug",
+		"source" : "C:/Users/itsre/Desktop/Tareas CPP/Zoo_OOP"
 	},
 	"version" : 
 	{

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP"
+CMAKE_SOURCE_DIR = "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Project_OOP_exe.dir/depend.make
@@ -70,273 +70,273 @@ include src/CMakeFiles/Project_OOP_exe.dir/flags.make
 
 src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Alimento.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Alimento.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Alimento.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Alimento.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Alimento.cpp" > CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Alimento.cpp" > CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Alimento.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Alimento.cpp" -o CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Alimento.cpp" -o CMakeFiles\Project_OOP_exe.dir\Alimento.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Animal.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Animal.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Animal.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Animal.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Animal.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Animal.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Animal.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Animal.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Animal.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Animal.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Calamar.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Calamar.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Calamar.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Calamar.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Calamar.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Calamar.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Calamar.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Calamar.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Calamar.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Calamar.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Cebra.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Cebra.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Cebra.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Cebra.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Cebra.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Cebra.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Cebra.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Cebra.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Cebra.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Cebra.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Ciervo.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Ciervo.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Ciervo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Ciervo.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Ciervo.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Ciervo.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Ciervo.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Ciervo.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Ciervo.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Ciervo.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Jirafa.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Jirafa.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Jirafa.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Jirafa.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Jirafa.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Jirafa.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Jirafa.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Jirafa.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Jirafa.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Jirafa.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Mantarraya.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Mantarraya.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Mantarraya.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Mantarraya.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Mantarraya.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Mantarraya.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Mantarraya.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Mantarraya.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Mantarraya.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Mantarraya.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/OsoPanda.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/OsoPanda.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\OsoPanda.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\OsoPanda.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\OsoPanda.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\OsoPanda.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/OsoPanda.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\OsoPanda.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\OsoPanda.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\OsoPanda.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Serpiente.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Serpiente.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Serpiente.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Serpiente.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Serpiente.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Serpiente.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Serpiente.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Serpiente.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Serpiente.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Serpiente.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Tigre.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Tigre.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Tigre.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Tigre.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Tigre.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Tigre.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Tigre.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Tigre.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Tigre.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Tigre.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Animales/Tortuga.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Animales/Tortuga.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Tortuga.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Tortuga.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Tortuga.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Tortuga.cpp" > CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Animales/Tortuga.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Animales\Tortuga.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Animales\Tortuga.cpp" -o CMakeFiles\Project_OOP_exe.dir\Animales\Tortuga.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Acuatico.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Habitats/Acuatico.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Acuatico.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Acuatico.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Acuatico.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Acuatico.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Habitats/Acuatico.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Acuatico.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Acuatico.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Acuatico.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Bosque.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Habitats/Bosque.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Bosque.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Bosque.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Bosque.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Bosque.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Habitats/Bosque.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Bosque.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Bosque.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Bosque.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Habitat.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Habitats/Habitat.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Habitat.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Habitat.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Habitat.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Habitat.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Habitats/Habitat.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Habitat.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Habitat.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Habitat.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/Sabana.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Habitats/Sabana.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Sabana.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Sabana.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Sabana.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Sabana.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Habitats/Sabana.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\Sabana.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\Sabana.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\Sabana.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Habitats/SelvaTropical.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Habitats/SelvaTropical.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\SelvaTropical.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\SelvaTropical.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\SelvaTropical.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\SelvaTropical.cpp" > CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Habitats/SelvaTropical.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Habitats\SelvaTropical.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Habitats\SelvaTropical.cpp" -o CMakeFiles\Project_OOP_exe.dir\Habitats\SelvaTropical.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/Zoologico.cpp
+src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/Zoologico.cpp
 src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Zoologico.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Zoologico.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Zoologico.cpp" > CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Zoologico.cpp" > CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/Zoologico.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\Zoologico.cpp" -o CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\Zoologico.cpp" -o CMakeFiles\Project_OOP_exe.dir\Zoologico.cpp.s
 
 src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/flags.make
 src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/includes_CXX.rsp
-src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Project_OOP/src/main.cpp
+src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: C:/Users/itsre/Desktop/Tareas\ CPP/Zoo_OOP/src/main.cpp
 src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj: src/CMakeFiles/Project_OOP_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\main.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\main.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Project_OOP_exe.dir/main.cpp.obj -MF CMakeFiles\Project_OOP_exe.dir\main.cpp.obj.d -o CMakeFiles\Project_OOP_exe.dir\main.cpp.obj -c "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\main.cpp"
 
 src/CMakeFiles/Project_OOP_exe.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_OOP_exe.dir/main.cpp.i"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\main.cpp" > CMakeFiles\Project_OOP_exe.dir\main.cpp.i
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\main.cpp" > CMakeFiles\Project_OOP_exe.dir\main.cpp.i
 
 src/CMakeFiles/Project_OOP_exe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_OOP_exe.dir/main.cpp.s"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src\main.cpp" -o CMakeFiles\Project_OOP_exe.dir\main.cpp.s
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src\main.cpp" -o CMakeFiles\Project_OOP_exe.dir\main.cpp.s
 
 # Object files for target Project_OOP_exe
 Project_OOP_exe_OBJECTS = \
@@ -384,18 +384,18 @@ src/Project_OOP_exe.exe: src/CMakeFiles/Project_OOP_exe.dir/build.make
 src/Project_OOP_exe.exe: src/CMakeFiles/Project_OOP_exe.dir/linklibs.rsp
 src/Project_OOP_exe.exe: src/CMakeFiles/Project_OOP_exe.dir/objects1.rsp
 src/Project_OOP_exe.exe: src/CMakeFiles/Project_OOP_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable Project_OOP_exe.exe"
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project_OOP_exe.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable Project_OOP_exe.exe"
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project_OOP_exe.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Project_OOP_exe.dir/build: src/Project_OOP_exe.exe
 .PHONY : src/CMakeFiles/Project_OOP_exe.dir/build
 
 src/CMakeFiles/Project_OOP_exe.dir/clean:
-	cd /d C:\Users\itsre\Desktop\TAREAS~1\PROJEC~1\CMAKE-~1\src && $(CMAKE_COMMAND) -P CMakeFiles\Project_OOP_exe.dir\cmake_clean.cmake
+	cd /d C:\Users\itsre\Desktop\TAREAS~1\Zoo_OOP\CMAKE-~1\src && $(CMAKE_COMMAND) -P CMakeFiles\Project_OOP_exe.dir\cmake_clean.cmake
 .PHONY : src/CMakeFiles/Project_OOP_exe.dir/clean
 
 src/CMakeFiles/Project_OOP_exe.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP" "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\src" "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug" "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\src" "C:\Users\itsre\Desktop\Tareas CPP\Project_OOP\cmake-build-debug\src\CMakeFiles\Project_OOP_exe.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP" "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\src" "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug" "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\src" "C:\Users\itsre\Desktop\Tareas CPP\Zoo_OOP\cmake-build-debug\src\CMakeFiles\Project_OOP_exe.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/CMakeFiles/Project_OOP_exe.dir/depend
 

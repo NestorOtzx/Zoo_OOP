@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src
+# Install script for directory: C:/Users/itsre/Desktop/Tareas CPP/Zoo_OOP/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

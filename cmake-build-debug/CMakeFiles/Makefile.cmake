@@ -31,12 +31,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/ProcessorCount.cmake"
-  "C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/CMakeLists.txt"
+  "C:/Users/itsre/Desktop/Tareas CPP/Zoo_OOP/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
-  "C:/Users/itsre/Desktop/Tareas CPP/Project_OOP/src/CMakeLists.txt"
+  "C:/Users/itsre/Desktop/Tareas CPP/Zoo_OOP/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
