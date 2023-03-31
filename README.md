@@ -144,35 +144,36 @@ Esta opción mostrará toda la información de todos los hábitat, sus caracter�
 
 Se puede interactuar con cada animal del zoológico y pedirle que ejecute una acción, cada animal puede ejecutar acciones diferentes acordes a su especie.
 
-![img_7.png](Imagenes/img_7.png)
-
 Primero se le preguntará al usuario en dónde está el animal con el que se quiere interactuar, en este caso está en el hábitat número 3 que es una sabana.
 
-![img_8.png](Imagenes/img_8.png)
+![img_7.png](Imagenes/img_7.png)
 
 Luego se le pide al usuario que elija al animal con el que quiere interactuar, en este caso se eligió a alex, un pequeño ciervo de un año de edad.
 
-![img_9.png](Imagenes/img_9.png)
+![img_8.png](Imagenes/img_8.png)
 
-Luego se le mostrará al usuario las acciones que le puede pedir a Alex que haga, el usuario deberá escribir que acción deberá hacer Alex, en este caso se le dijo a Alex que salte.
+Finalmente se le mostrará al usuario las acciones que le puede pedir a Alex que haga, el usuario deberá escribir que acción deberá hacer Alex, en este caso se le dijo a Alex que corra.
+
+![img.png](Imagenes/img_15.png)
+
 
 ## Editar la alimentación de los animales
 
-La alimentación de los animales puede ser editada por el usuario, cada animal se alimenta de diferentes tipos de comida.
+La comida del zoológico puede ser editada por el usuario, además cada animal se alimenta de diferentes tipos de comida.
 
-![img_10.png](Imagenes/img_10.png)
+El usuario debe elegir si quiere agregar más comida al zoologico o si quiere editar la comida que ya hay.
 
-Para editar la alimentación de un animal se le preguntará dónde está el animal al que se le quiere modificar la alimentación.
+![img.png](Imagenes/img_9.png)
 
-![img_11.png](Imagenes/img_11.png)
+En ambos casos se le preguntará al usuario como se llama la comida que se está añadiendo.
 
-Se le preguntará al usuario como se llama la comida que se le dará al animal a partir de ahora.
-
-![img_12.png](Imagenes/img_12.png)
+![img_1.png](Imagenes/img_10.png)
 
 El usuario deberá decir que tipo de comida es la que se le dará al animal.
 
-Debe tenerse en cuenta que los animales carnívoro deben consumir solo comida para carnívoros, los animales herbívoros deben consumir solamente comida para herbívoros.
+![img_2.png](Imagenes/img_11.png)
+
+Debe tenerse en cuenta que los animales carnívoros deben consumir solo comida para carnívoros, los animales herbívoros deben consumir solamente comida para herbívoros.
 Mientras que los animales omnívoros pueden consumir los 2 tipos de alimento.
 
 Si el usuario intenta alimentar a un animal carnívoro con un alimento herbívoro, el zoológico no lo permitirá.

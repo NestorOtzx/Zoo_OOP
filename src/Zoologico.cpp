@@ -496,7 +496,7 @@ void Zoologico::accionAnimal(Habitat *habitat, int animalID, std::string nombreA
         std::advance(alimentoSeleccionado, alimentoID-1);
 
         habitat->getAnimal(animalID)->comer(*alimentoSeleccionado);
-
+        alimentos.erase(alimentoSeleccionado);
         return;
     }
     if(nombreAccion == "dormir")
